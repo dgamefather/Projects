@@ -1,23 +1,24 @@
+var slack = {};
+var loginInfo = require('../../assets/logins/slack/slack');
 module.exports = {
     before: browser => {
-        browser.url("https://devmtn.slack.com/");
+        slack = browser.page.slackPage()
+        slack
+            .navigate();
     },
     after: browser => {
         browser.end();
     },
 
     'Login': browser => { // COMMENT OUT TO SHOW MERCY
-        browser
-            // Login
-            .pause(1000)
-            .setValue('#email', 'brennan@thatoneplace.net')
-            .setValue('#password', ['Nin10d0rules!', browser.Keys.ENTER]);
+        slack
+        .login(loginInfo);
     },
 
     // Delete message
     'DeleteBot': browser => {
-        browser
-            .url('https://app.slack.com/client/T039C2PUY/DQ7L6D1V2')
+        slack
+            .click('@drey')
             .pause(1000);
 
         var xpath = '//span[contains(text(), "sPaMeR iS hErE!")]';

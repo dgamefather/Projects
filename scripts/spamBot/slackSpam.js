@@ -1,5 +1,5 @@
 var slack = {};
-var loginInfo = require('../../assets/logins/slack');
+var loginInfo = require('../../assets/logins/slack/slack');
 module.exports = {
     before: browser => {
         slack = browser.page.slackPage()
@@ -40,7 +40,6 @@ module.exports = {
         }
         slack
             .setValue('@text', ['Your thoughts?', browser.Keys.ENTER])
-            .pause();
     },
 
     // // Drey

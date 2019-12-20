@@ -1,5 +1,5 @@
 var craft = {};
-var loginInfo = require('../../assets/logins/andrew');
+var loginInfo = require('../../assets/logins/classCraft/andrew');
 module.exports = {
     before: browser => {
         craft = browser.page.classPage()
