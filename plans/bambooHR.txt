@@ -1,0 +1,7 @@
+What to test:
+ - Mobile View (change window size mid test)
+ - Icon Displayed
+ - Video Player functional?
+    -- 1st => 3:45 (3:50 for test)
+    -- 2nd => 1:00 (1:05 for test)
+ - URL Equals
