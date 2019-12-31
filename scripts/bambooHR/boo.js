@@ -1,6 +1,7 @@
 var bamboozled = {};
+var bam = require('../../assets/bambooHR/bam');
 module.exports = {
-    before: browser => {
+    beforeEach: browser => {
         bamboozled = browser.page.bamboo();
         bamboozled
             .navigate();
@@ -9,24 +10,36 @@ module.exports = {
         browser
             .end();
     },
-    'Navigation - Home': browser => {
-        bamboozled
-            .home();
+    'Home': browser => {
+        bam.forEach(nav => {
+            bamboozled
+                // .main()
+                // .element(nav.img, 'alt')
+                // .click(nav.learn)
+                // .main()
+                // .vUrl(nav.link)
+                // .hp()
+                .home(nav)
+        });
     },
-    'Navigation - Software': browser => {
-        bamboozled
-            .ourSoftware();
-    },
-    'Navigation - Why': browser => {
-        bamboozled
-            .why();
-    },
-    'Navigation - Resources': browser => {
-        bamboozled
-            .resources();
-    },
-    'Navigation - About': browser => {
-        bamboozled
-            .about();
-    },
+    // 'Our Software': browser => {
+    //     bamboozled
+    //         .ourSoftware();
+    // },
+    // 'Why BambooHR': browser => {
+    //     bamboozled
+    //         .why();
+    // },
+    // 'Resources': browser => {
+    //     bamboozled
+    //         .resources();
+    // },
+    // 'About BambooHR': browser => {
+    //     bamboozled
+    //         .about();
+    // },
+    // 'Mobile View': browser => {
+    //     bamboozled
+    //         .mobile();
+    // },
 }

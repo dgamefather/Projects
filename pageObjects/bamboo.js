@@ -1,37 +1,78 @@
 var bamboozled = {
-    // Home Page
-    home: function () {
+    // Utility Functions
+    element: function (select, prop) {
         this
-            .waitForElementPresent('@mainPage')
+            .api.getElementProperty(select, prop, function (result) {
+                console.log('result', result)
+            });
+        return this;
+    },
+    vUrl: function (url) {
+        this
+            .verify.urlEquals(url, 'URL Verified!');
+        return this;
+    },
+    main: function () {
+        this
+            .waitForElementPresent('@mainPage');
+        return this;
+    },
+    part: function () {
+        this
+            .waitForElementPresent('@partnerPage');
+        return this;
+    },
+    vApi: function () {
+        this
+            .waitForElementPresent('@apiPage');
+        return this;
+    },
+    hp: function () {
+        this
+            .click('@home');
+        return this;
+    },
 
+    // Home
+    home: function (nav) {
+        this
+            .main()
+            .element(nav.img, 'alt')
+            .click(nav.learn)
+            .main()
+            .vUrl(nav.link)
+            .hp()
         return this;
     },
 
     // Our Software
     ourSoftware: function () {
         this
-            .waitForElementPresent('@mainPage')
         return this;
     },
 
     // Why BambooHR
     why: function () {
         this
-            .waitForElementPresent('@mainPage')
         return this;
     },
 
     // Resources
     resources: function () {
         this
-            .waitForElementPresent('@mainPage')
         return this;
     },
 
     // About BambooHR
     about: function () {
         this
-            .waitForElementPresent('@mainPage')
+        return this;
+    },
+
+    // Mobile View
+    mobile: function () {
+        this
+            .resizeWindow(1200, 800)
         return this;
     },
 }
@@ -41,6 +82,7 @@ module.exports = {
     elements: {
         // Page
         'mainPage': '[data-abr="init"]',
+        'home': '.NavbarMain__logo',
         'partnerPage': '.home',
         'apiPage': '.body-none',
 
@@ -50,6 +92,12 @@ module.exports = {
         'onLearn': '[aria-label="Click here to learn more about Onboarding"]',
         'compLearn': '[aria-label="Click here to learn more about Compensation"]',
         'cultLearn': '[aria-label="Click here to learn more about Culture"]',
+        /* Images */
+        'peImg': '[src="/images/icons/people-data.svg"]',
+        'hiImg': '[src="/images/icons/hiring.svg"]',
+        'onImg': '[src="/images/icons/onboarding.svg"]',
+        'compImg': '[src="/images/icons/compensation.svg"]',
+        'cultImg': '[src="/images/icons/people-stacked-green.svg"]',
 
         // Navigation
         'software': '.js-nav-drop-opener-1',
@@ -108,5 +156,8 @@ module.exports = {
         'events': '[href="/events-calendar/"]',
         'partner': '[href="https://partners.bamboohr.com"]',
         'contact': '[href="/contact/"]',
+
+        // Mobile View
+        'hamburger': '.js-nav-mobile-opener',
     }
 }
