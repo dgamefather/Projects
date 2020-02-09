@@ -13,12 +13,6 @@ module.exports = {
     'Home': browser => {
         bam.forEach(nav => {
             bamboozled
-                // .main()
-                // .element(nav.img, 'alt')
-                // .click(nav.learn)
-                // .main()
-                // .vUrl(nav.link)
-                // .hp()
                 .home(nav)
         });
     },

@@ -2,9 +2,7 @@ var bamboozled = {
     // Utility Functions
     element: function (select, prop) {
         this
-            .api.getElementProperty(select, prop, function (result) {
-                console.log('result', result)
-            });
+            .verify.attributeEquals(select, 'alt', prop);
         return this;
     },
     vUrl: function (url) {
@@ -37,7 +35,7 @@ var bamboozled = {
     home: function (nav) {
         this
             .main()
-            .element(nav.img, 'alt')
+            .element(nav.img, nav.alt)
             .click(nav.learn)
             .main()
             .vUrl(nav.link)
@@ -87,11 +85,11 @@ module.exports = {
         'apiPage': '.body-none',
 
         // Home Page
-        'peLearn': '[aria-label="Click here to learn more about People Data & Analytics"]',
-        'hiLearn': '[aria-label="Click here to learn more about Hiring"]',
-        'onLearn': '[aria-label="Click here to learn more about Onboarding"]',
-        'compLearn': '[aria-label="Click here to learn more about Compensation"]',
-        'cultLearn': '[aria-label="Click here to learn more about Culture"]',
+        'peLearn': '[aria-label*=Data]',
+        'hiLearn': '[aria-label*=Hiring]',
+        'onLearn': '[aria-label*=Onboarding]',
+        'compLearn': '[aria-label*=Compensation]',
+        'cultLearn': '[aria-label*=Culture]',
         /* Images */
         'peImg': '[src="/images/icons/people-data.svg"]',
         'hiImg': '[src="/images/icons/hiring.svg"]',
