@@ -8,7 +8,7 @@ module.exports = {
     },
     after: browser => {
         browser
-        .end();
+            .end();
     },
     'Login': browser => {
         craft
