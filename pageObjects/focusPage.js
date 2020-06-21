@@ -5,7 +5,10 @@ var fewCommands = {
             .setValue('@user', data.user)
             .setValue('@pass', data.code)
             .click('@loginbtn')
-            .waitForElementPresent('@page');
+            .waitForElementPresent('@popup')
+            .click('@submitbtn')
+            .pause(3000)
+            .waitForElementPresent('@page')
             /* SET VERIFICATION */
         return this;
     },
@@ -60,7 +63,8 @@ module.exports = {
         'user': '#UserName',
         'pass': '#Password',
         'verify': '.user',
-
+        'popup': '#loginChoicesDialog',
+        'submitbtn': '#loginSubmit',
         // Site
         'page': '#content',
     }
