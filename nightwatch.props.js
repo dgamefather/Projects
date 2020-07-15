@@ -1,6 +1,6 @@
 module.exports = {
     // PC \\
-    resourcePath: "..\\testing-resources\\",
+    resourcePath: "..\\Resources\\",
     seleniumServer: "selenium-server-standalone-3.141.59.jar",
     chromedriver: "chromedriver.exe",
 
