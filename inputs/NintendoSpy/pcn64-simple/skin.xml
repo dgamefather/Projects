@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="Tron-Style N64" author="Aliensqueakytoy/dgamefather" type="generic">
+
+	<background name="N64" image="Input-display-2.png" />
+
+    <!--A--><button name="b0" image="RealAbutton.png" x="198" y="70" width="30" height="30" />
+    <!--B--><button name="b1" image="Abutton.png" x="175" y="34" width="30" height="30" />
+    <!--Z--><button name="b2" image="Z highlight.png" x="114" y="88" width="48" height="16" />
+    <!--START--><button name="b3" image="StartButton.png" x="122" y="24" width="30" height="30" />
+
+    <!--CUP--><button name="b4" image="Cbutton.png" x="266" y="30" width="26" height="26" />
+    <!--CDWN--><button name="b5" image="Cbutton.png" x="266" y="79" width="26" height="26" />
+    <!--CLEFT--><button name="b6" image="Cbutton.png" x="240" y="55" width="28" height="26" />
+    <!--CRIGHT--><button name="b7" image="Cbutton.png" x="292" y="55" width="26" height="26" />m
+
+    <!--R--><button name="b9" image="R button-01.png" x="186" y="8" width="86" height="13" />
+
+    <stick xname="x" yname="y" image="joystick2.png"
+           x="29" y="38" width="40" height="40" xrange="25" yrange="25" yreverse="true" />
+</skin>

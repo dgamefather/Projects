@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="OoT style N64" author="xwillmarktheplace/dgamefather" type="generic">
+
+	<background name="Basic" image="n64-skin.png"/>
+
+	<button name="b0" 	  image="a.png"       x="311" y="60"/>
+	<button name="b1" 	  image="b.png"       x="225" y="61"/>
+	<button name="b3"  image="start.png"   x="163" y="38"/>
+	<button name="b6"  image="c-left.png"  x="388" y="17"/>
+	<button name="b7" image="c-right.png" x="515" y="20"/>
+	<button name="b5"  image="c-down.png"  x="452" y="64"/>
+	<button name="b4" 	  image="c-up.png"    x="466" y="12"/>
+	<button name="b2" 	  image="z.png"       x="2"   y="7"/>
+	<button name="b9" 	  image="r.png"       x="101" y="7"/>
+	
+	<stick xname="x" yname="y" image="stick.png" x="50" y="81" xrange="25" yrange="25" yreverse="true" />
+	
+</skin>
