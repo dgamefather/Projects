@@ -1,22 +1,24 @@
-var fewCommands = {
-    login: function (data) {
+var goalCommands = {
+    goals: function (data) {
         this
-            .waitForElementPresent('@login')
-            .setValue('@user', data.user)
-            .setValue('@pass', data.code)
-            .click('@loginbtn')
-            .waitForElementPresent('@popup')
-            .click('@submitbtn')
-            .pause(3000)
             .waitForElementPresent('@page')
+            .click('@myGoals')
+            .waitForElementVisible('@table')
             /* SET VERIFICATION */
         return this;
     },
     oldPage: function () {  /* DO THIS ONE LATER! */
         this
-            // Goal Nav Bar
+            // Goal Nav Bar - Company Goals
             .waitForElementPresent('@page')
-            .click('@goals')
+            .click('@compGoals')
+            .waitForElementPresent('@page')
+            .click()
+            /* SET VERIFICATION */
+
+            // Goal Nav Bar - My Goals
+            .waitForElementPresent('@page')
+            .click('@myGoals')
             .waitForElementPresent('@page')
             .click()
             /* SET VERIFICATION */
@@ -63,7 +65,7 @@ var fewCommands = {
         this
             /* LOAD GOALS PAGE */
             .waitForElementPresent('@page')
-            .click('@goals')
+            .click('@myGoals')
             .waitForElementVisible('@table')
             /* SET VERIFICATION */
 
@@ -78,7 +80,7 @@ var fewCommands = {
         this
             /* LOAD GOALS PAGE */
             .waitForElementPresent('@page')
-            .click('@goals')
+            .click('@myGoals')
             .waitForElementVisible('@table')
             /* SET VERIFICATION */
 
@@ -90,32 +92,20 @@ var fewCommands = {
             /* SET VERIFICATION */
         return this;
     },
-    dupe: function () {
-        this
-        return this;
-    },
 }
 module.exports = {
     url: 'http://testfocus2.thatoneplace.net/',
-    commands: [fewCommands],
+    commands: [goalCommands],
     elements: {
-        // Login
-        'login': '#body',
-        'loginbtn': '#loginButton',
-        'user': '#UserName',
-        'pass': '#Password',
-        'verify': '.user',
-        'popup': '#loginChoicesDialog',
-        'submitbtn': '#loginSubmit',
-
         // Site
         'page': '#content',
-        'table': '#objectives-table',
 
         // Nav Bar
-        'goals': 'a[href="/Objectives/Goals"]',
+        'compGoals': 'a[href="/Objectives/Goals?userId=20322"]',
+        'myGoals': 'a[href="/Objectives/Goals?userId=20323"]',
         
         // Goals Page
+        'table': '#objectives-table',
         'search': {
             selector: '//*[@id="objectives-table_filter"]//*[@type="search"]',
             locateStrategy: 'xpath'

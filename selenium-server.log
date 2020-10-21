@@ -1,9 +1,9 @@
-12:35:18.650 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-12:35:18.720 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2020-08-15 12:35:18.755:INFO::main: Logging initialized @278ms to org.seleniumhq.jetty9.util.log.StdErrLog
-12:35:18.924 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-12:35:19.158 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-12:35:19.416 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+20:55:02.789 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+20:55:02.874 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-10-20 20:55:02.915:INFO::main: Logging initialized @337ms to org.seleniumhq.jetty9.util.log.StdErrLog
+20:55:03.153 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+20:55:03.402 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+20:55:03.908 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "chromeOptions": {
     "w3c": false,
@@ -13,12 +13,11 @@
   },
   "name": "Focus"
 }
-12:35:19.417 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 26555
+20:55:03.909 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 39824
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1597516520.865][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-12:35:22.911 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
-12:35:23.114 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 110bd9586504c40b5631423822948c49 (org.openqa.selenium.chrome.ChromeDriverService)
-12:35:50.113 INFO [ActiveSessions$1.onStop] - Removing session 110bd9586504c40b5631423822948c49 (org.openqa.selenium.chrome.ChromeDriverService)
+20:55:08.094 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+20:55:08.418 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session da7d028438623a29c6005206b80d2e58 (org.openqa.selenium.chrome.ChromeDriverService)
+20:55:51.519 INFO [ActiveSessions$1.onStop] - Removing session da7d028438623a29c6005206b80d2e58 (org.openqa.selenium.chrome.ChromeDriverService)

@@ -1,0 +1,43 @@
+var loginCommands = {
+    login: function (data) {
+        this
+            .waitForElementPresent('@login')
+            .setValue('@user', data.user)
+            .setValue('@pass', data.code)
+            .click('@loginbtn')
+            .waitForElementPresent('@popup')
+            .click('@submitbtn')
+            .pause(3000)
+            .waitForElementPresent('@page')
+            /* SET VERIFICATION */
+        return this;
+    },
+    logout: function () {
+        this
+            .waitForElementPresent('@page')
+            .click('@options')
+            .waitForElementPresent('@logout')
+            .click('@logout')
+            .waitForElementPresent('@login')
+            .pause(3000)
+            /* SET VERIFICATION */
+        return this;
+    }
+}
+module.exports = {
+    url: 'http://testfocus2.thatoneplace.net/',
+    commands: [loginCommands],
+    elements: {
+        'login': '#body',
+        'loginbtn': '#loginButton',
+        'user': '#UserName',
+        'pass': '#Password',
+        'verify': '.user',
+        'popup': '#loginChoicesDialog',
+        'submitbtn': '#loginSubmit',
+        'page': '#content',
+        'table': '#objectives-table',
+        'logout': 'a[href="#"]',
+        'options': '.user',
+    }
+}

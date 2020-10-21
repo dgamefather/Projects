@@ -90,7 +90,7 @@
 	</Global>
 	<PhaseIndicator>
 		<anchorAlignment Type="3" Value="1.000000" />
-		<anchorXOffset Type="3" Value="552.631579" />
+		<anchorXOffset Type="3" Value="347.368421" />
 		<anchorYOffset Type="3" Value="0.000000" />
 		<scale Type="3" Value="1.000000" />
 		<enabled Type="2" Value="1" />
@@ -660,8 +660,8 @@
 		<AnchorAlignment Type="3" Value="1.000000" />
 	</CharacterSheet>
 	<QuickTravelWindow>
-		<AnchorOffsetX Type="3" Value="462.789474" />
-		<AnchorOffsetY Type="3" Value="6.315789" />
+		<AnchorOffsetX Type="3" Value="471.210526" />
+		<AnchorOffsetY Type="3" Value="0.000000" />
 		<AnchorAlignment Type="3" Value="1.000000" />
 	</QuickTravelWindow>
 	<MissionBoard>
@@ -1049,7 +1049,7 @@
 	</SystemMessages>
 	<StrongholdManagementWindow>
 		<AnchorOffsetX Type="3" Value="379.789474" />
-		<AnchorOffsetY Type="3" Value="73.710526" />
+		<AnchorOffsetY Type="3" Value="64.236842" />
 		<AnchorAlignment Type="3" Value="1.000000" />
 	</StrongholdManagementWindow>
 	<StrongholdToolbar>
@@ -1143,7 +1143,7 @@
 		<AnchorAlignment Type="3" Value="1.000000" />
 	</MissionShareWindow>
 	<DisciplineWindow>
-		<AnchorOffsetX Type="3" Value="472.105263" />
+		<AnchorOffsetX Type="3" Value="473.157895" />
 		<AnchorOffsetY Type="3" Value="0.000000" />
 		<AnchorAlignment Type="3" Value="7.000000" />
 	</DisciplineWindow>
