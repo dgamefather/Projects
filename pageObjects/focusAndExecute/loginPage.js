@@ -5,8 +5,6 @@ var loginCommands = {
             .setValue('@user', data.user)
             .setValue('@pass', data.code)
             .click('@loginbtn')
-            .waitForElementPresent('@popup')
-            .click('@submitbtn')
             .pause(3000)
             .waitForElementPresent('@page')
             /* SET VERIFICATION */
@@ -33,8 +31,6 @@ module.exports = {
         'user': '#UserName',
         'pass': '#Password',
         'verify': '.user',
-        'popup': '#loginChoicesDialog',
-        'submitbtn': '#loginSubmit',
         'page': '#content',
         'table': '#objectives-table',
         'logout': 'a[href="#"]',

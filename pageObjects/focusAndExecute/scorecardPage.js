@@ -62,58 +62,58 @@ module.exports = {
 
         // Nav Bar
         'compGoals' : {
-            selector: '//*[@id="company-plan-nav"]//*[@href="/Objectives/Goals?userId=21402"]',
+            selector: '//*[@id="company-plan-nav"]//*[@href="/Objectives/Goals?userId=21894"]',
             locateStrategy: 'xpath'
         },
         'myGoals': {
-            selector: '//*[@id="my-plan-nav"]//*[@href="/Objectives/Goals?userId=21414"]',
+            selector: '//*[@id="my-plan-nav"]//*[@href="/Objectives/Goals?userId=21895"]',
             locateStrategy: 'xpath'
         },
         'scorecard': 'a[href="/Dashboard/Scorecard"]',
         
         // Goals Page
         'sus1' : {
-            selector: '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21403"]',
+            selector: '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21896"]',
             locateStrategy: 'xpath'
         },
         'sus2' : {
-            selector: '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21404"]',
+            selector: '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21897"]',
             locateStrategy: 'xpath'
         },
         'sus3' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21405"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21898"]',
             locateStrategy: 'xpath'
         },
         'sus4' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21406"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21902"]',
             locateStrategy: 'xpath'
         },
         'sus5' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21407"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21899"]',
             locateStrategy: 'xpath'
         },
         'sus6' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21408"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21903"]',
             locateStrategy: 'xpath'
         },
         'sus7' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21409"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21900"]',
             locateStrategy: 'xpath'
         },
         'sus8' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21410"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21904"]',
             locateStrategy: 'xpath'
         },
         'sus9' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21411"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21901"]',
             locateStrategy: 'xpath'
         },
         'sus10' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21412"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21905"]',
             locateStrategy: 'xpath'
         },
         'sus11' : {
-            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21413"]',
+            selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21906"]',
             locateStrategy: 'xpath'
         },
         'table': '#scorecard-table',

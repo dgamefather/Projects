@@ -1,3 +1,6 @@
+// Production Site 
+// var pro = {};    /* DO NOT USE!!!!!! */
+
 // Users
 
 var user1 = require('../../assets/logins/focusAndExecute/tester');
@@ -22,26 +25,29 @@ module.exports = {
         login = browser.page.loginPage();
         goals = browser.page.goalsPage();
         scorecard = browser.page.scorecardPage();
+        // pro = browser.page.prodSite();   /* DO NOT USE!!!!!! */
         login.navigate();
+        // pro.navigate();  /* DO NOT USE!!!!!! */
     },
     after: browser => {
         login.logout();
         browser.end();
     },
+
+    /*** GOALS PAGE ***/
+
     'Login - Tester Litster': browser => {
         login.login(user1);
     },
-
-    /*** GOALS PAGE ***/
 
     'Navigation - Goals': browser => {
         goals.goals();
     },
 
-    // // Old Goal Page Link Checker /* DO THIS ONE LATER! */
-    // 'Old URL Checker': browser => {
-    //     goals.oldPage();
-    // },
+    // Old Goal Page Link Checker
+    'Old URL Checker': browser => {
+        goals.oldPage();
+    },
 
     // // Ownership/Authorship | Goal/Action Plan/Task Name Editor
     // 'Editor': browser => {
@@ -57,59 +63,59 @@ module.exports = {
     //         .dueDate();
     // },
 
-    // Search/Tags
-    'Filter System - Owner': browser => {
-        employees.forEach(employee =>
-            goals
-                .search(employee)
-        )
-    },
+    // // Search/Tags
+    // 'Filter System - Owner': browser => {
+    //     employees.forEach(employee =>
+    //         goals
+    //             .search(employee)
+    //     )
+    // },
 
-    'Filter System - Goal': browser => {
-        goal.forEach(goal =>
-            goals
-                .search(goal)
-        )
-    },
+    // 'Filter System - Goal': browser => {
+    //     goal.forEach(goal =>
+    //         goals
+    //             .search(goal)
+    //     )
+    // },
 
-    'Filter System - Tag (Search)': browser => {
-        tags.forEach(tag =>
-            goals
-                .search(tag)
-        )
-    },
+    // 'Filter System - Tag (Search)': browser => {
+    //     tags.forEach(tag =>
+    //         goals
+    //             .search(tag)
+    //     )
+    // },
 
-    'Filter System - Tag (Tag)': browser => {
-        tags.forEach(tag =>
-            goals
-                .tag(tag)
-        )
-    },
+    // 'Filter System - Tag (Tag)': browser => {
+    //     tags.forEach(tag =>
+    //         goals
+    //             .tag(tag)
+    //     )
+    // },
 
     /*** Scorecard ***/
     
-    'Login - Script Litster': browser => {
-        login
-            .logout()
-            .login(user2);
-    },
+    // 'Login - Script Litster': browser => {
+    //     login
+    //         .logout()
+    //         .login(user2);
+    // },
 
-    'Navigation - Scorecard': browser => {
-        scorecard.card();
-    },
+    // 'Navigation - Scorecard': browser => {
+    //     scorecard.card();
+    // },
 
-    'Score Check': browser => {
-        scorecard
-            .sus1()
-            .sus2()
-            .sus3()
-            .sus4()
-            .sus5()
-            .sus6()
-            .sus7()
-            .sus8()
-            .sus9()
-            .sus10()
-            .sus11();
-    },
+    // 'Score Check': browser => {
+    //     scorecard
+    //         .sus1()
+    //         .sus2()
+    //         .sus3()
+    //         .sus4()
+    //         .sus5()
+    //         .sus6()
+    //         .sus7()
+    //         .sus8()
+    //         .sus9()
+    //         .sus10()
+    //         .sus11();
+    // },
 }
