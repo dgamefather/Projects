@@ -23,7 +23,7 @@ var loginCommands = {
     }
 }
 module.exports = {
-    url: 'http://testfocus2.thatoneplace.net/',
+    url: 'http://testfocus.thatoneplace.net/',		// Change me to whatever url you want!
     commands: [loginCommands],
     elements: {
         'login': '#body',

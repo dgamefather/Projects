@@ -16,5 +16,5 @@
     <!--R--><button name="b9" image="R button-01.png" x="186" y="8" width="86" height="13" />
 
     <stick xname="x" yname="y" image="joystick2.png"
-           x="29" y="38" width="40" height="40" xrange="25" yrange="25" yreverse="true" />
+           x="24" y="31" width="50" height="50" xrange="20" yrange="20" yreverse="true" />
 </skin>

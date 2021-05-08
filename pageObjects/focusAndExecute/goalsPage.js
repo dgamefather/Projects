@@ -1,5 +1,5 @@
 var goalCommands = {
-    goals: function () {
+    goals: function () {        // Done!
         this
             .waitForElementPresent('@page')
             .click('@myGoals')
@@ -7,7 +7,7 @@ var goalCommands = {
             .api.verify.urlContains("/Objectives/Goals");
         return this;
     },
-    oldPage: function () {
+    oldPage: function () {      // Done!
             // Goal Nav Bar - Company Goals
         this
             .waitForElementPresent('@page')
@@ -34,13 +34,13 @@ var goalCommands = {
         //     .waitForElementVisible('@table')
         //     .api.verify.urlContains("/Objectives/Goals");
 
-            // User
-        this
-            .waitForElementPresent('@page')
-            .click('@headUser')
-            .waitForElementVisible('@headNav')
-            .click('@headGoals')
-            .api.verify.urlContains("/Objectives/Goals");
+        //     // User
+        // this
+        //     .waitForElementPresent('@page')
+        //     .click('@headUser')
+        //     .waitForElementVisible('@headNav')
+        //     .click('@headGoals')
+        //     .api.verify.urlContains("/Objectives/Goals");
 
         //     // VAU Dropdown - Show All
         // this
@@ -73,10 +73,33 @@ var goalCommands = {
         //     this.api.verify.urlContains("/Objectives/Goals");
         return this;
     },
-    editor: function () {
+    editor: function () {       // Done!
         this
+            /* LOAD GOALS PAGE */
+            .waitForElementPresent('@page')
+            .click('@myGoals')
+            .waitForElementVisible('@table')
+            .api.verify.urlContains("/Objectives/Goals");
+
+            /* Add Goal */
+        this
+            .click('@addGoal')
+            .pause(3000)
+            .api.keys('Test Goal');
+        this
+            .click('@saveBtn')
+            .api.verify.containsText('#objectives-table', 'Test Goal');
         return this;
     },
+    // delete: function () {
+    //     this
+    //         .api.verify.containsText('#objectives-table', 'Test Goal');
+    //     this
+    //         .click()
+    //         .pause(3000)
+    //         .api.verify.containsText('#objectives-table', NULL);
+    //     return this;
+    // },
     author: function () {
         this
         return this;
@@ -89,43 +112,40 @@ var goalCommands = {
         this
         return this;
     },
-    search: function (data) {
+    search: function (data) {   // Done!
         this
             /* LOAD GOALS PAGE */
             .waitForElementPresent('@page')
             .click('@myGoals')
             .waitForElementVisible('@table')
             .api.verify.urlContains("/Objectives/Goals");
-            /* SET VERIFICATION */
 
             /* SEARCH */
         this
             .clearValue('@search')
             .setValue('@search', data, this.api.Keys.ENTER)
             .waitForElementVisible('@table')
-            /* SET VERIFICATION */
+            .api.verify.containsText('#objectives-table', data)
         return this;
     },
-    tag: function (tags) {
+    tag: function (tags) {      // Done!
         this
             /* LOAD GOALS PAGE */
             .waitForElementPresent('@page')
             .click('@myGoals')
             .waitForElementVisible('@table')
-            /* SET VERIFICATION */
+            .api.verify.urlContains("/Objectives/Goals");
 
             /* SEARCH TAGS */
         this
             .clearValue('@tag')
             .setValue('@tag', tags, this.api.Keys.ENTER)
             .waitForElementVisible('@table')
-            .setValue('@search', "")
-            /* SET VERIFICATION */
+            .api.verify.containsText('#content', tags);
         return this;
     },
 }
 module.exports = {
-    url: 'http://testfocus2.thatoneplace.net/',
     commands: [goalCommands],
     elements: {
         // Site
@@ -156,6 +176,19 @@ module.exports = {
         },
         'tag': {
             selector: '//*[@id="tags-filter-container"]//*[@class="select2-search__field"]',
+            locateStrategy: 'xpath'
+        },
+
+        'addGoal': {
+            selector: '//*[@id="Objective_5878"]//*[@class="add-item"]',
+            locateStrategy: 'xpath'
+        },
+        'saveBtn': {
+            selector: '//*[@data-dte-e="form_buttons"]//*[@class="btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only big"]',
+            locateStrategy: 'xpath'
+        },
+        'cancelBtn': {
+            selector: '//*[@data-dte-e="form_buttons"]//*[@class="btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only cancel"]',
             locateStrategy: 'xpath'
         },
     }

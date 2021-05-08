@@ -10,6 +10,26 @@ StackTower2(Key)
 }
 
 ;;;;;;;;;;;  Mouse5  ;;;;;;;;;;;
+XButton2 & 1::
+StackTower2(1)
+return
+ 
+XButton2 & 2::
+StackTower2(2)
+return
+ 
+XButton2 & 3::
+StackTower2(3)
+return
+ 
+XButton2 & 4::
+StackTower2(4)
+return
+ 
+XButton2 & 5::
+StackTower2(5)
+return
+
 XButton2 & 6::
 StackTower2(6)
 return
@@ -31,6 +51,26 @@ StackTower2(0)
 return
 
 ;;;;;;;;;;; Mouse4 ;;;;;;;;;;;
+XButton1 & 1::
+StackTower1(1)
+return
+ 
+XButton1 & 2::
+StackTower1(2)
+return
+ 
+XButton1 & 3::
+StackTower1(3)
+return
+ 
+XButton1 & 4::
+StackTower1(4)
+return
+ 
+XButton1 & 5::
+StackTower1(5)
+return
+
 XButton1 & 6::
 StackTower1(6)
 return
