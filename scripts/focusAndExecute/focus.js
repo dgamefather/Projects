@@ -46,68 +46,69 @@ module.exports = {
             .end();
     },
 
-    // // /* Main Plan */
+	/* Main Plan */
 
-    // 'Login - Tester Litster': browser => {    // WORKS!
-    //     login
-    //         .login(user1);
-    // },
+    'Login - Tester Litster': browser => {    // WORKS!
+        login
+            .login(user1);
+    },
 
-    // /*** GOALS PAGE ***/
+    /*** GOALS PAGE ***/
 
-    // 'Navigation - Goals': browser => {    // WORKS!
+    'Navigation - Goals': browser => {    // WORKS!
+        goals
+            .goals();
+    },
+
+    // Old Goal Page Link Checker
+    'Old URL Checker': browser => {    // WORKS!
+        goals
+            .oldPage();
+    },
+
+    // Ownership/Authorship | Goal/Action Plan/Task Name Editor
+    'Editor': browser => {
+        goals
+            .editor()   // WORKS!
+            // .author()
+			.delete();	// WORKS!
+    },
+
+    // // Updates | Due Dates
+    // 'Progress Check': browser => {
     //     goals
-    //         .goals();
+    //         .update()
+    //         .dueDate();
     // },
 
-    // // Old Goal Page Link Checker
-    // 'Old URL Checker': browser => {    // WORKS!
-    //     goals
-    //         .oldPage();
-    // },
+    // Search/Tags
+    'Filter System - Owner': browser => {    // WORKS!
+        employees.forEach(employee =>
+            goals
+                .search(employee)
+        )
+    },
 
-    // // Ownership/Authorship | Goal/Action Plan/Task Name Editor
-    // 'Editor': browser => {
-    //     goals
-    //         .editor()   // WORKS!
-    //         // .author();
-    // },
+    'Filter System - Goal': browser => {    // WORKS!
+        goal.forEach(goal =>
+            goals
+                .search(goal)
+        )
+    },
 
-    // // // // Updates | Due Dates
-    // // // 'Progress Check': browser => {
-    // // //     goals
-    // // //         .update()
-    // // //         .dueDate();
-    // // // },
+    'Filter System - Tag (Tag)': browser => {    // WORKS!
+        tags.forEach(tag =>
+            goals
+                .tag(tag)
+        )
+    },
 
-    // // Search/Tags
-    // 'Filter System - Owner': browser => {    // WORKS!
-    //     employees.forEach(employee =>
-    //         goals
-    //             .search(employee)
-    //     )
-    // },
-
-    // 'Filter System - Goal': browser => {    // WORKS!
-    //     goal.forEach(goal =>
-    //         goals
-    //             .search(goal)
-    //     )
-    // },
-
-    // 'Filter System - Tag (Tag)': browser => {    // WORKS!
+    // 'Filter System - Tag (Search)': browser => {     /* VERIFICATION BREAKS THIS TEST */
     //     tags.forEach(tag =>
     //         goals
-    //             .tag(tag)
+    //             .search(tag)
     //     )
     // },
-
-    // // // 'Filter System - Tag (Search)': browser => {     /* VERIFICATION BREAKS THIS TEST */
-    // // //     tags.forEach(tag =>
-    // // //         goals
-    // // //             .search(tag)
-    // // //     )
-    // // // },
 
     /* Secondary Plan */
 
@@ -115,7 +116,7 @@ module.exports = {
     
     'Login - Script Litster': browser => {    // WORKS!
         login
-        	// .logout()
+        	.logout()
             .login(user2);
     },
 

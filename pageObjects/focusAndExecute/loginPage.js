@@ -5,9 +5,8 @@ var loginCommands = {
             .setValue('@user', data.user)
             .setValue('@pass', data.code)
             .click('@loginbtn')
-            .pause(3000)
             .waitForElementPresent('@page')
-            /* SET VERIFICATION */
+            .api.assert.elementPresent('#content');
         return this;
     },
     logout: function () {
@@ -17,8 +16,7 @@ var loginCommands = {
             .waitForElementPresent('@logout')
             .click('@logout')
             .waitForElementPresent('@login')
-            .pause(3000)
-            /* SET VERIFICATION */
+            .api.assert.urlContains('http://testfocus.thatoneplace.net');	// Change me to whatever url you want!
         return this;
     }
 }
@@ -30,7 +28,6 @@ module.exports = {
         'loginbtn': '#loginButton',
         'user': '#UserName',
         'pass': '#Password',
-        'verify': '.user',
         'page': '#content',
         'table': '#objectives-table',
         'logout': 'a[href="#"]',

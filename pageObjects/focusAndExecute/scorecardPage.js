@@ -4,17 +4,14 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .click('@scorecard')
             .waitForElementVisible('@table')
-            .pause(3000) // USE ONLY IF NEED BE!!!
             .api.verify.urlContains("/Dashboard/Scorecard");
         return this;
     },
     override: function () {   // Score should equal to: 100 w/ NOT APPROVED (should switch to APPROVED)
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-2"]//*[@href="/Objectives/Goals?userId=21901"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-2"]//*[@href="/Objectives/Goals?userId=21901"]');
 		this
             .click('@over')
             .waitForElementPresent('@page')
@@ -24,39 +21,26 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-2"]//*[@href="/Objectives/Goals?userId=21901"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-2"]//*[@href="/Objectives/Goals?userId=21901"]');
 		this
-            .api.moveToElement({
-				selector : '//*[@id="21901_Override Not Approved to Show Approved (Shows 100%) User Meets ALL Criteria"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+            .api.moveToElement('//*[@id="21901_Override Not Approved to Show Approved (Shows 100%) User Meets ALL Criteria"]', 0, 0);
         this
             .waitForElementVisible('@overscore')
-            .api.verify.containsText({
-				selector : '//*[@id="21901_Override Not Approved to Show Approved (Shows 100%) User Meets ALL Criteria"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '100');
+            .api.verify.containsText('//*[@id="21901_Override Not Approved to Show Approved (Shows 100%) User Meets ALL Criteria"]/following-sibling::div[@class="score"]', '100');
         return this;
     },
 	sct001: function () {     // Score should equal to: 20 (-) **UPDATE - WILL NOT SHOW ON SCORECARD**
         this
             .waitForElementPresent('@page')
-			.api.verify.not.elementPresent({
-				selector : '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21896"]', 
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.not.elementPresent('//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21896"]');
         return this;
     },
     sct002: function () {     // Score should equal to: 30
         this
             .waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21898"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21898"]');
 		this
             .click('@sct002')
             .waitForElementPresent('@page')
@@ -66,30 +50,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
         this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21898"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-3"]//*[@href="/Objectives/Goals?userId=21898"]');
 		this
-            .api.moveToElement({
-				selector : '//*[@id="21898_sct002"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+            .api.moveToElement('//*[@id="21898_sct002"]', 0, 0);
         this
             .waitForElementVisible('@sct002score')
-            .api.verify.containsText({
-				selector : '//*[@id="21898_sct002"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '30');
+            .api.verify.containsText('//*[@id="21898_sct002"]/following-sibling::div[@class="score"]', '30');
         return this;
     },
     sct003: function () {     // Score should equal to: 100
         this
             .waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21900"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21900"]');
 		this
             .click('@sct003')
             .waitForElementPresent('@page')
@@ -99,30 +72,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21900"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21900"]');
         this
-            .api.moveToElement({
-				selector : '//*[@id="21900_sct003"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+            .api.moveToElement('//*[@id="21900_sct003"]', 0, 0);
         this
             .waitForElementVisible('@sct003score')
-            .api.verify.containsText({
-				selector : '//*[@id="21900_sct003"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '100');
+            .api.verify.containsText('//*[@id="21900_sct003"]/following-sibling::div[@class="score"]', '100');
         return this;
     },
     sct004: function () {     // Score should equal to: 90
         this
             .waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21904"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21904"]');
 		this
             .click('@sct004')
             .waitForElementPresent('@page')
@@ -132,30 +94,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21904"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21904"]');
         this
-			.api.moveToElement({
-				selector : '//*[@id="21904_sct004"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21904_sct004"]', 0, 0);
         this
             .waitForElementVisible('@sct004score')
-            .api.verify.containsText({
-				selector : '//*[@id="21904_sct004"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '90');
+            .api.verify.containsText('//*[@id="21904_sct004"]/following-sibling::div[@class="score"]', '90');
         return this;
     },
     sct005: function () {     // Score should equal to: 80
         this
             .waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21905"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21905"]');
 		this
             .click('@sct005')
             .waitForElementPresent('@page')
@@ -165,30 +116,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
         this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21905"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21905"]');
 		this
-			.api.moveToElement({
-				selector : '//*[@id="21905_sct005"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21905_sct005"]', 0, 0);
 		this
 			.waitForElementVisible('@sct005score')
-			.api.verify.containsText({
-				selector : '//*[@id="21905_sct005"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '80');
+			.api.verify.containsText('//*[@id="21905_sct005"]/following-sibling::div[@class="score"]', '80');
         return this;
     },
     sct006: function () {     // Score should equal to: 100
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21926"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21926"]');
 		this
             .click('@sct006')
             .waitForElementPresent('@page')
@@ -198,30 +138,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21926"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21926"]');
 		this
-			.api.moveToElement({
-				selector : '//*[@id="21926_sct006"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21926_sct006"]', 0, 0);
 		this
 			.waitForElementVisible('@sct006score')
-			.api.verify.containsText({
-				selector : '//*[@id="21926_sct006"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '100');
+			.api.verify.containsText('//*[@id="21926_sct006"]/following-sibling::div[@class="score"]', '100');
         return this;
     },
     sct007: function () {     // Score should equal to: 100 w/ APPROVED
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21927"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21927"]');
 		this
             .click('@sct007')
             .waitForElementPresent('@page')
@@ -231,30 +160,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector : '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21927"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21927"]');
 		this
-			.api.moveToElement({
-				selector : '//*[@id="21927_sct007"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21927_sct007"]', 0, 0);
 		this
 			.waitForElementVisible('@sct007score')
-			.api.verify.containsText({
-				selector : '//*[@id="21927_sct007"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '100');
+			.api.verify.containsText('//*[@id="21927_sct007"]/following-sibling::div[@class="score"]', '100');
         return this;
     },
     sct008: function () {     // Score should equal to: 90
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21899"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21899"]');
 		this
             .click('@sct008')
             .waitForElementPresent('@page')
@@ -264,30 +182,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21899"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21899"]');
 		this
-			.api.moveToElement({
-				selector : '//*[@id="21899_sct008"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21899_sct008"]', 0, 0);
 		this
 			.waitForElementVisible('@sct008score')
-			.api.verify.containsText({
-				selector : '//*[@id="21899_sct008"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '90');
+			.api.verify.containsText('//*[@id="21899_sct008"]/following-sibling::div[@class="score"]', '90');
         return this;
     },
     sct009: function () {     // Score should equal to: 100 (ACTION PLANS ONLY)
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21928"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21928"]');
 		this
             .click('@sct009')
             .waitForElementPresent('@page')
@@ -297,30 +204,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21928"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21928"]');
 		this
-			.api.moveToElement({
-				selector: '//*[@id="21928_sct009"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21928_sct009"]', 0, 0);
 		this
 			.waitForElementVisible('@sct009score')
-			.api.verify.containsText({
-				selector : '//*[@id="21928_sct009"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '100');
+			.api.verify.containsText('//*[@id="21928_sct009"]/following-sibling::div[@class="score"]', '100');
         return this;
     },
     sct010: function () {     // Score should equal to: 70
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21906"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21906"]');
 		this
             .click('@sct010')
             .waitForElementPresent('@page')
@@ -330,30 +226,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21906"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21906"]');
 		this
-			.api.moveToElement({
-				selector: '//*[@id="21906_sct010"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21906_sct010"]', 0, 0);
 		this
 			.waitForElementVisible('@sct010score')
-			.api.verify.containsText({
-				selector : '//*[@id="21906_sct010"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '70');
+			.api.verify.containsText('//*[@id="21906_sct010"]/following-sibling::div[@class="score"]', '70');
         return this;
     },
     sct011: function () {     // Score should equal to: 50
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21897"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21897"]');
 		this
             .click('@sct011')
             .waitForElementPresent('@page')
@@ -363,30 +248,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21897"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21897"]');
 		this
-			.api.moveToElement({
-				selector: '//*[@id="21897_sct011"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21897_sct011"]', 0, 0);
 		this
 			.waitForElementVisible('@sct011score')
-			.api.verify.containsText({
-				selector : '//*[@id="21897_sct011"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '50');
+			.api.verify.containsText('//*[@id="21897_sct011"]/following-sibling::div[@class="score"]', '50');
         return this;
     },
     sct012: function () {     // Score should equal to: 70
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21902"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21902"]');
 		this
             .click('@sct012')
             .waitForElementPresent('@page')
@@ -396,30 +270,19 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 		this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21902"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21902"]');
 		this
-			.api.moveToElement({
-				selector: '//*[@id="21902_sct012"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21902_sct012"]', 0, 0);
 		this
 			.waitForElementVisible('@sct012score')
-			.api.verify.containsText({
-				selector : '//*[@id="21902_sct012"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '70');
+			.api.verify.containsText('//*[@id="21902_sct012"]/following-sibling::div[@class="score"]', '70');
         return this;
     },
     sct013: function () {     // Score should equal to: 80
         this
 			.waitForElementPresent('@page')
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21903"]',
-				locateStrategy : 'xpath'
-			});
+			.useXpath()
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21903"]');
 		this
             .click('@sct013')
             .waitForElementPresent('@page')
@@ -429,21 +292,12 @@ var scorecardCommands = {
             .waitForElementPresent('@page')
             .api.verify.urlContains("/Dashboard/Scorecard");
 			this
-			.api.verify.elementPresent({
-				selector: '//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21903"]',
-				locateStrategy : 'xpath'
-			});
+			.api.verify.elementPresent('//*[@class="user-name level-4"]//*[@href="/Objectives/Goals?userId=21903"]');
 		this
-			.api.moveToElement({
-				selector: '//*[@id="21903_sct013"]',
-				locateStrategy : 'xpath'
-			}, 0, 0);
+			.api.moveToElement('//*[@id="21903_sct013"]', 0, 0);
 		this
 			.waitForElementVisible('@sct013score')
-			.api.verify.containsText({
-				selector : '//*[@id="21903_sct013"]/following-sibling::div[@class="score"]',
-				locateStrategy : 'xpath'
-			}, '80');
+			.api.verify.containsText('//*[@id="21903_sct013"]/following-sibling::div[@class="score"]', '80');
         return this;
     },
 }

@@ -7,40 +7,40 @@ var goalCommands = {
             .api.verify.urlContains("/Objectives/Goals");
         return this;
     },
-    oldPage: function () {      // Done!
+    oldPage: function () {      // IN PROGRESS
             // Goal Nav Bar - Company Goals
         this
             .waitForElementPresent('@page')
             .click('@compGoals')
             .waitForElementVisible('@table')
-            .api.verify.urlContains("/Objectives/Goals");
+            .api.verify.urlContains("/Objectives/Goals");	// Works
 
             // Goal Nav Bar - My Goals
         this
             .waitForElementPresent('@page')
             .click('@myGoals')
             .waitForElementPresent('@page')
-            .api.verify.urlContains("/Objectives/Goals");
+            .api.verify.urlContains("/Objectives/Goals");	// Works
 
         //     // Org Chart
         // this
         //     .waitForElementPresent('@page')
         //     .click('@orgChart')
         //     .waitForElementPresent('@page')
-        //     .api.moveToElement('@orgUser', 10, 10);
+        //     .api.moveToElement('#ui-id-13', 0, 0);
         // this
         //     .waitForElementVisible('@orgNav')
         //     .click('@orgNav')
         //     .waitForElementVisible('@table')
         //     .api.verify.urlContains("/Objectives/Goals");
 
-        //     // User
-        // this
-        //     .waitForElementPresent('@page')
-        //     .click('@headUser')
-        //     .waitForElementVisible('@headNav')
-        //     .click('@headGoals')
-        //     .api.verify.urlContains("/Objectives/Goals");
+            // User
+        this
+            .waitForElementPresent('@page')
+            .click('@headUser')
+            .waitForElementVisible('@headNav')
+            .click('@headGoals')
+            .api.verify.urlContains("/Objectives/Goals");	// Works
 
         //     // VAU Dropdown - Show All
         // this
@@ -50,7 +50,8 @@ var goalCommands = {
         //     .click('@showAll')
         //     .pause(3000)
         //     .api.expect.element('@user').to.have.value.which.contains("Show All");
-        //     this.api.verify.urlContains("/Objectives/Goals");
+		// this
+		// 	.api.verify.urlContains("/Objectives/Goals");
 
         //     // VAU Dropdown - CEO
         // this
@@ -60,7 +61,8 @@ var goalCommands = {
         //     .click('@ceo')
         //     .pause(3000)
         //     .api.expect.element('@user').to.have.value.which.contains("Brennan Litster");
-        //     this.api.verify.urlContains("/Objectives/Goals");
+		// this
+		// 	.api.verify.urlContains("/Objectives/Goals");
 
         //     // VAU Dropdown - Tester
         // this
@@ -70,7 +72,8 @@ var goalCommands = {
         //     .click('@tester')
         //     .pause(3000)
         //     .api.expect.element('@user').to.have.value.which.contains("Tester Litster");
-        //     this.api.verify.urlContains("/Objectives/Goals");
+		// this
+		// 	.api.verify.urlContains("/Objectives/Goals");
         return this;
     },
     editor: function () {       // Done!
@@ -91,15 +94,24 @@ var goalCommands = {
             .api.verify.containsText('#objectives-table', 'Test Goal');
         return this;
     },
-    // delete: function () {
-    //     this
-    //         .api.verify.containsText('#objectives-table', 'Test Goal');
-    //     this
-    //         .click()
-    //         .pause(3000)
-    //         .api.verify.containsText('#objectives-table', NULL);
-    //     return this;
-    // },
+    delete: function () {       // Done!
+        this
+            .api.verify.containsText('#objectives-table', 'Test Goal');
+        this
+            .click('@deleteBtn')
+			.api.assert.elementPresent('.DTE');
+			if (this.api.expect.element('.DTE').to.be.present) {
+				this
+					.click('@confirmDelete')
+            		.api.verify.not.containsText('#objectives-table', 'Test Goal');
+				return this;
+			}
+			else {
+				this
+					.api.verify.containsText('#objectives-table', 'Test Goal');
+				return this;
+			}
+    },
     author: function () {
         this
         return this;
@@ -191,5 +203,16 @@ module.exports = {
             selector: '//*[@data-dte-e="form_buttons"]//*[@class="btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only cancel"]',
             locateStrategy: 'xpath'
         },
+
+		'deleteBtn': {
+			selector: '//*[@id="Objective_5878"]/following-sibling::tr//*[@title="Delete Goal"]',
+			locateStrategy: 'xpath'
+		},
+		'confirmDelete': {
+			selector: '//*[@class="DTE_Form_Buttons"]//*[span="Delete"]',
+			locateStrategy: 'xpath'
+		},
     }
 }
+
+// #goalFilterByUser
