@@ -86,13 +86,30 @@ var goalCommands = {
 
             /* Add Goal */
         this
+			.pause(3000)
             .click('@addGoal')
-            .pause(3000)
+			.pause(3000)
             .api.keys('Test Goal');
-        this
+		this
             .click('@saveBtn')
             .api.verify.containsText('#objectives-table', 'Test Goal');
         return this;
+			// if (this.api.expect.element('#edit-denied').to.be.present) {
+			// 	this
+			// 		.api.keys(this.api.Keys.ESCAPE);
+			// 	this
+			// 		.api.keys(this.api.Keys.NULL);
+			// 	return this;
+			// }
+			// else {
+			// 	this
+			// 		.pause(3000)
+            // 		.api.keys('Test Goal');
+			// 	this
+            // 		.click('@saveBtn')
+            // 		.api.verify.containsText('#objectives-table', 'Test Goal');
+        	// 	return this;
+			// }
     },
     delete: function () {       // Done!
         this
@@ -111,12 +128,35 @@ var goalCommands = {
 					.api.verify.containsText('#objectives-table', 'Test Goal');
 				return this;
 			}
-    },
-    author: function () {
-        this
-        return this;
-    },
-    update: function () {
+		// this
+		// 	.useXpath()
+			// if (this.api.expect.element('//*[@id="Objective_5878"]//*[@class="add-item"]').to.be.present) {
+			// 	this
+            // 		.api.verify.containsText('#objectives-table', 'Test Goal');
+        	// 	this
+            // 		.click('@deleteBtn')
+			// 		.api.assert.elementPresent('.DTE');
+			// 		if (this.api.expect.element('.DTE').to.be.present) {
+			// 			this
+			// 				.click('@confirmDelete')
+            // 				.api.verify.not.containsText('#objectives-table', 'Test Goal');
+			// 			return this;
+			// 		}
+			// 		else {
+			// 			this
+			// 				.api.verify.containsText('#objectives-table', 'Test Goal');
+			// 			return this;
+			// 		}
+			// }
+			// else {
+			// 	return this;
+			// }
+		},
+		author: function () {
+			this
+			return this;
+		},
+		update: function () {
         this
         return this;
     },

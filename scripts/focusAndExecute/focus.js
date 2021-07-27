@@ -1,6 +1,6 @@
 // Production Site \\
 
-// var pro = {};                             /* DO NOT USE!!!!!! */
+var pro = {};
 
 // Users \\
 
@@ -33,15 +33,17 @@ module.exports = {
         goals = browser.page.goalsPage();
         scorecard = browser.page.scorecardPage();
         // greenlight = browser.page.greenlightPage();
-        // pro = browser.page.prodSite();   /* DO NOT USE!!!!!! */
-        login
-            .navigate();                   /* COMMENT OUT WHEN TESTING PRODUCTION */
-        // pro
-        //     .navigate();                  /* DO NOT USE!!!!!! */
+        pro = browser.page.prodSite();
+        // login
+        //     .navigate();					/* COMMENT OUT WHEN TESTING PRODUCTION */
+        pro
+            .navigate();					/* COMMENT OUT WHEN TESTING TEST SITE */
     },
     after: browser => {
-        login
-            .logout();
+        // login
+        //     .logout();						/* COMMENT OUT WHEN TESTING PRODUCTION */
+		pro
+			.logout();						/* COMMENT OUT WHEN TESTING TEST SITE */
         browser
             .end();
     },
@@ -49,8 +51,11 @@ module.exports = {
 	/* Main Plan */
 
     'Login - Tester Litster': browser => {    // WORKS!
-        login
-            .login(user1);
+        // login
+        //     .login(user1);
+
+		pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+			.login(user1);
     },
 
     /*** GOALS PAGE ***/
@@ -60,13 +65,7 @@ module.exports = {
             .goals();
     },
 
-    // Old Goal Page Link Checker
-    'Old URL Checker': browser => {    // WORKS!
-        goals
-            .oldPage();
-    },
-
-    // Ownership/Authorship | Goal/Action Plan/Task Name Editor
+	// Ownership/Authorship | Goal/Action Plan/Task Name Editor
     'Editor': browser => {
         goals
             .editor()   // WORKS!
@@ -74,7 +73,13 @@ module.exports = {
 			.delete();	// WORKS!
     },
 
-    // // Updates | Due Dates
+    // Old Goal Page Link Checker
+    'Old URL Checker': browser => {    // WORKS!
+        goals
+            .oldPage();
+    },
+
+	// // Updates | Due Dates
     // 'Progress Check': browser => {
     //     goals
     //         .update()
@@ -115,9 +120,13 @@ module.exports = {
     /*** Scorecard ***/
     
     'Login - Script Litster': browser => {    // WORKS!
-        login
-        	.logout()
-            .login(user2);
+        // login	/* COMMENT OUT WHEN TESTING PRODUCTION */
+        // 	.logout()
+        //     .login(user2);
+		
+		pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+			.logout()
+			.login(user2);
     },
 
     'Navigation - Scorecard': browser => {    // WORKS!
@@ -146,9 +155,13 @@ module.exports = {
     // /*** Green Light Review ***/
 
     // 'Login - Green Litster': browser => {               // WORKS!
-    //     login
+    //     login	/* COMMENT OUT WHEN TESTING PRODUCTION */
     //         .logout()
     //         .login(admin);
+		
+	// 	// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+	// 	// 	.logout()
+	// 	// 	.login(admin);
     // },
 
     // 'Navigation - Green Light Review': browser => {

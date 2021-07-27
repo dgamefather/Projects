@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin name="Tron-Style N64" author="Aliensqueakytoy/dgamefather" type="generic">
 
-	<background name="N64" image="Input-display-2.png" />
+	<background name="N64" image="Input-display-2-new.png" />
 
     <!--A--><button name="b0" image="RealAbutton.png" x="198" y="70" width="30" height="30" />
     <!--B--><button name="b1" image="Abutton.png" x="175" y="34" width="30" height="30" />
