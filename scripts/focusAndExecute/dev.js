@@ -1,14 +1,13 @@
-// Production Site \\
+// Dev Site \\
 
-var pro = {};
+var dev = {};
 
 // Users \\
 
-var user1 = require('../../assets/logins/focusAndExecute/tester');
-var user2 = require('../../assets/logins/focusAndExecute/scorecard');
-var user3 = require('../../assets/logins/focusAndExecute/reviewer');    // DOESN'T WORK AS OF 1/22/21
-var admin = require('../../assets/logins/focusAndExecute/admin');
-var login = {};
+var user1 = require('../../assets/devs/focusAndExecute/tester');
+var user2 = require('../../assets/devs/focusAndExecute/scorecard');
+var user3 = require('../../assets/devs/focusAndExecute/reviewer');    // DOESN'T WORK AS OF 1/22/21
+var admin = require('../../assets/devs/focusAndExecute/admin');
 
 // Goals Page \\
 
@@ -29,33 +28,25 @@ var scorecard = {};
 
 module.exports = {
     before: browser => {
-        login = browser.page.loginPage();
+        dev = browser.page.devPage();
         goals = browser.page.goalsPage();
         scorecard = browser.page.scorecardPage();
         // greenlight = browser.page.greenlightPage();
-        pro = browser.page.prodSite();
-        login
-            .navigate();					/* COMMENT OUT WHEN TESTING PRODUCTION */
-        // pro
-        //     .navigate();					/* COMMENT OUT WHEN TESTING TEST SITE */
+        dev
+            .navigate();
     },
     after: browser => {
-        login
-            .logout();						/* COMMENT OUT WHEN TESTING PRODUCTION */
-		// pro
-		// 	.logout();						/* COMMENT OUT WHEN TESTING TEST SITE */
+        dev
+            .logout();
         browser
             .end();
     },
 
 	/* Main Plan */
 
-    'Login - Tester Litster': browser => {    // WORKS!
-        login
+    'dev - Tester Litster': browser => {    // WORKS!
+        dev
             .login(user1);
-
-		// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
-		// 	.login(user1);
     },
 
     /*** GOALS PAGE ***/
@@ -119,14 +110,10 @@ module.exports = {
 
     /*** Scorecard ***/
     
-    'Login - Script Litster': browser => {    // WORKS!
-        login	/* COMMENT OUT WHEN TESTING PRODUCTION */
+    'dev - Script Litster': browser => {    // WORKS!
+        dev
         	.logout()
             .login(user2);
-		
-		// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
-		// 	.logout()
-		// 	.login(user2);
     },
 
     'Navigation - Scorecard': browser => {    // WORKS!
@@ -154,12 +141,12 @@ module.exports = {
 
     // /*** Green Light Review ***/
 
-    // 'Login - Green Litster': browser => {               // WORKS!
-    //     login	/* COMMENT OUT WHEN TESTING PRODUCTION */
+    // 'dev - Green Litster': browser => {               // WORKS!
+    //     dev
     //         .logout()
     //         .login(admin);
 		
-	// 	// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+	// 	// pro	/* DELETE dev WHEN  */
 	// 	// 	.logout()
 	// 	// 	.login(admin);
     // },
