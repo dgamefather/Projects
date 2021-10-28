@@ -34,16 +34,16 @@ module.exports = {
         scorecard = browser.page.scorecardPage();
         // greenlight = browser.page.greenlightPage();
         pro = browser.page.prodSite();
-        // login
-        //     .navigate();					/* COMMENT OUT WHEN TESTING PRODUCTION */
-        pro
-            .navigate();					/* COMMENT OUT WHEN TESTING TEST SITE */
+        login
+            .navigate();					/* COMMENT OUT WHEN TESTING PRODUCTION */
+        // pro
+        //     .navigate();					/* COMMENT OUT WHEN TESTING TEST SITE */
     },
     after: browser => {
-        // login
-        //     .logout();						/* COMMENT OUT WHEN TESTING PRODUCTION */
-		pro
-			.logout();						/* COMMENT OUT WHEN TESTING TEST SITE */
+        login
+            .logout();						/* COMMENT OUT WHEN TESTING PRODUCTION */
+		// pro
+		// 	.logout();						/* COMMENT OUT WHEN TESTING TEST SITE */
         browser
             .end();
     },
@@ -51,11 +51,11 @@ module.exports = {
 	/* Main Plan */
 
     'Login - Tester Litster': browser => {    // WORKS!
-        // login
-        //     .login(user1);
+        login
+            .login(user1);
 
-		pro	/* COMMENT OUT WHEN TESTING TEST SITE */
-			.login(user1);
+		// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+		// 	.login(user1);
     },
 
     /*** GOALS PAGE ***/
@@ -120,13 +120,13 @@ module.exports = {
     /*** Scorecard ***/
     
     'Login - Script Litster': browser => {    // WORKS!
-        // login	/* COMMENT OUT WHEN TESTING PRODUCTION */
-        // 	.logout()
-        //     .login(user2);
+        login	/* COMMENT OUT WHEN TESTING PRODUCTION */
+        	.logout()
+            .login(user2);
 		
-		pro	/* COMMENT OUT WHEN TESTING TEST SITE */
-			.logout()
-			.login(user2);
+		// pro	/* COMMENT OUT WHEN TESTING TEST SITE */
+		// 	.logout()
+		// 	.login(user2);
     },
 
     'Navigation - Scorecard': browser => {    // WORKS!
