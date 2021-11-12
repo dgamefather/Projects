@@ -123,8 +123,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"60" [$WINDOWS] // Size Huge Primary
 				"tall"			"50" [!$WINDOWS] // Size Huge Primary
 				"weight"		"0"
@@ -137,8 +137,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"40" // Size Big Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -150,8 +150,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"25" [$WINDOWS] // Size Medium Primary
 				"tall"			"20" [!$WINDOWS] // Size Medium Primary
 				"weight"		"0"
@@ -164,8 +164,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"15" [$WINDOWS] // Size Small Primary
 				"tall"			"12" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
@@ -178,8 +178,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Size Tiny Primary
 				"tall"			"11" [!$WINDOWS] // Size Tiny Primary
 				"weight"		"0"
@@ -193,8 +193,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Dimbo" [$WINDOWS] // Secondary font
-				"name"			"TF2 Secondary" [!$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
 				"tall"			"25" // Size Huge Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -206,8 +206,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Dimbo" [$WINDOWS] // Secondary font
-				"name"			"TF2 Secondary" [!$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
 				"tall"			"19" // Size Big Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -219,8 +219,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Dimbo" [$WINDOWS] // Secondary font
-				"name"			"TF2 Secondary" [!$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
 				"tall"			"16" // Size Medium Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -232,8 +232,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Dimbo" [$WINDOWS] // Secondary font
-				"name"			"TF2 Secondary" [!$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
 				"tall"			"12" // Size Small Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -245,8 +245,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Dimbo" [$WINDOWS] // Secondary font
-				"name"			"TF2 Secondary" [!$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
+				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
 				"tall"			"10" // Size Tiny Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -285,8 +285,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"20" [$WINDOWS] // Font Size Big Main Menu
 				"tall"			"10" [!$WINDOWS] // Font Size Big Main Menu
 				"weight"		"0"
@@ -299,8 +299,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Font Size Main Menu
 				"tall"			"12" [!$WINDOWS] // Font Size Main Menu
 				"weight"		"0"
@@ -341,8 +341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Target ID health font | Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Target ID health font | Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Target ID health font | Primary font
 				"tall"			"14" // Target ID health text size
 				"weight"		"0"
 				"additive"		"0"
@@ -365,8 +365,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"25" // Size Medium Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -379,8 +379,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Primary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
+				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
 				"tall"			"15" [$WINDOWS] // Size Small Primary
 				"tall"			"12" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
@@ -835,7 +835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -845,7 +845,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -855,7 +855,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -864,7 +864,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -873,7 +873,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -885,7 +885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -898,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -911,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -923,7 +923,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -934,7 +934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -945,7 +945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -968,7 +968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -979,7 +979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,7 +990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1003,7 +1003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1016,7 +1016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1028,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1039,7 +1039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1050,7 +1050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1062,7 +1062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1073,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1096,7 +1096,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1107,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1118,7 +1118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1129,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1140,7 +1140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1151,7 +1151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1162,7 +1162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1175,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1250,7 +1250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1263,7 +1263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1323,7 +1323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1333,7 +1333,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1344,7 +1344,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1353,7 +1353,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1362,7 +1362,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1537,7 +1537,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1547,7 +1547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1558,7 +1558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1583,7 +1583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Trebuchet MS Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1598,7 +1598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Trebuchet MS Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1613,7 +1613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Trebuchet MS Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1626,7 +1626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Trebuchet MS Professor"
 				"tall"			"14" [$WINDOWS]
 				"tall"			"15" [!$WINDOWS]
 				"tall_lodef"	"32"
@@ -1664,7 +1664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1677,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1689,7 +1689,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1701,7 +1701,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1715,7 +1715,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1727,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1739,7 +1739,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1754,7 +1754,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1766,7 +1766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1776,7 +1776,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1786,7 +1786,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1795,7 +1795,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1804,7 +1804,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1817,7 +1817,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1829,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1840,7 +1840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1851,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1863,7 +1863,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1982,7 +1982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2082,7 +2082,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2095,7 +2095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2107,7 +2107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2160,7 +2160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2170,7 +2170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2180,7 +2180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2208,7 +2208,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2217,7 +2217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2256,7 +2256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2267,7 +2267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2278,7 +2278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2366,7 +2366,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2377,7 +2377,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2388,7 +2388,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2399,7 +2399,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2410,7 +2410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2431,7 +2431,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2442,7 +2442,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2453,7 +2453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2465,7 +2465,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2476,7 +2476,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"HyliaSerifBeta-Regular"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
@@ -2624,7 +2624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Trebuchet MS Professor"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2635,7 +2635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2644,7 +2644,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2653,7 +2653,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2666,7 +2666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2676,7 +2676,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2686,7 +2686,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2700,7 +2700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2709,7 +2709,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2718,7 +2718,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2731,7 +2731,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2743,7 +2743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2754,7 +2754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2862,7 +2862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2926,7 +2926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2937,7 +2937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2948,7 +2948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2961,7 +2961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2972,7 +2972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2989,7 +2989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3000,7 +3000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3012,7 +3012,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3025,7 +3025,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Trebuchet MS Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3038,7 +3038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3050,7 +3050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3064,7 +3064,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"HyliaSerifBeta-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3150,8 +3150,8 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
+			"font" "resource/Trebuchet MS.ttf"
+			"name" "Trebuchet MS"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3163,8 +3163,8 @@ Scheme
 		}
 		"4" 
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "resource/Trebuchet MSSecondary.ttf"
+			"name" "Trebuchet MS Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3176,8 +3176,8 @@ Scheme
 		}
 		"5" 
 		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
+			"font" "resource/Trebuchet MSProfessor.ttf"
+			"name" "Trebuchet MS Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -3189,8 +3189,8 @@ Scheme
 		}	
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "Trebuchet MS"
+			"font" "resource/Trebuchet MSBuild.ttf"
+			"name" "HyliaSerifBeta-Regular"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3278,6 +3278,10 @@ Scheme
 		"18" "resource/fonts/Montserrat.ttf"
 	}
 }
+
+
+
+
 
 
 

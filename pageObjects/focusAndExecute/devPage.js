@@ -4,7 +4,7 @@ var loginCommands = {
             .waitForElementPresent('@login')
             .setValue('@user', data.user)
             .setValue('@pass', data.code)
-            .click('@loginbtn')
+            .click('@loginBtn')
             .waitForElementPresent('@page')
             .api.assert.elementPresent('#content');
         return this;
@@ -25,7 +25,7 @@ module.exports = {
     commands: [loginCommands],
     elements: {
         'login': '#body',
-        'loginbtn': '#loginButton',
+        'loginBtn': '#loginButton',
         'user': '#UserName',
         'pass': '#Password',
         'page': '#content',

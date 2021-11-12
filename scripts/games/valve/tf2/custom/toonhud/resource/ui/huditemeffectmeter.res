@@ -42,7 +42,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0" // 0 = Black label text!
 		"tabPosition"			"0"
 		"labelText"				"#TF_BALL"
 		"textAlignment"			"center"

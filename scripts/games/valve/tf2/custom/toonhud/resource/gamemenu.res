@@ -95,9 +95,9 @@
 	"ToonHUDButton"
 	{
 		"label"		""
-		"command"	"engine play vo/items/wheatley_sapper/wheatley_sapper_hacked24.mp3"
+		"command"	"engine play vo/announcer_am_killstreak09.mp3"
 		"subimage"	"replay/thumbnails/glyphs/glyph_toonhud"
-		"tooltip"	"ToonHUD 11.2 by Griever"
+		"tooltip"	"ToonHUD 11.3 by Griever"
 	}
 
 }
