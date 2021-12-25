@@ -111,7 +111,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="3741597713609827544" Name="CycleTargetEnemy">
-			<Key>0</Key>
+			<Key>72</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -197,6 +197,11 @@
 		</Keybinding>
 		<Keybinding ID="5015503043582381565" Name="ToggleCombatLog">
 			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5236481665855684571" Name="ToggleEmoteWindow">
+			<Key>554</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -621,7 +626,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="11158165001986343822" Name="ToggleCrewSkillsWindow">
-			<Key>0</Key>
+			<Key>626</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -651,12 +656,12 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="12354238949215511516" Name="ToggleGuildWindow">
-			<Key>0</Key>
+			<Key>628</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="12484600393675513967" Name="AutoRun">
-			<Key>888</Key>
+			<Key>698</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -726,7 +731,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="13547137468153118543" Name="ToggleEpisodicLauncherWindow">
-			<Key>0</Key>
+			<Key>625</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -881,7 +886,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="15585587829005646555" Name="AutoForward">
-			<Key>1152</Key>
+			<Key>697</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
