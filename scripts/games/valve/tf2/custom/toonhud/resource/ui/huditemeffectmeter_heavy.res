@@ -6,9 +6,33 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"			"HudItemEffectMeter"
-		"ypos"				"r102"
-		"ypos_minmode"		"c+79"
+		"fieldName"		"HudItemEffectMeter"
+		"ypos"			"r21"
+		"ypos_minmode"	"r121"
+	}
+	
+	"Mask25"
+	{	
+		"fieldName"				"Mask25"
+		"visible"				"0"
+	}
+	
+	"Mask50"
+	{	
+		"fieldName"				"Mask50"
+		"visible"				"0"
+	}
+	
+	"Mask75"
+	{	
+		"fieldName"				"Mask75"
+		"visible"				"0"
+	}
+	
+	"Mask100"
+	{	
+		"fieldName"				"Mask100"
+		"bgcolor_override"		"0 0 0 150"
 	}
 	
 	// ----
@@ -79,4 +103,5 @@
 		"image"			"../HUD/leaderboard_class_scout"
 		"scaleImage"	"1"	
 	}
+	
 }

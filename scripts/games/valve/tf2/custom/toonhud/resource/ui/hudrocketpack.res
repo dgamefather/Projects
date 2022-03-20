@@ -1,81 +1,16 @@
 // Pyro: The Thermal Thruster
 
+#base "HudItemEffectMeter.res"
+
 "Resource/UI/HudRocketPack.res"
 {
 	HudItemEffectMeter
 	{
-		"fieldName"			"HudItemEffectMeter"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-60"
-		"ypos"				"r102"
-		"ypos_minmode"		"c+79"
-		"wide"				"120"
-		"tall"				"6"
-		"MeterFG"			"White"
-		"MeterBG"			"Gray"
+		"fieldName"		"HudItemEffectMeter"
+		"ypos"			"r21"
+		"ypos_minmode"	"r121"
 	}
 	
-	"OutlineBorder"
-	{	
-		"ControlName"			"EditablePanel"
-		"fieldName"				"OutlineBorder"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"100"
-		"wide"					"120"
-		"tall"					"6"			
-		"visible"				"1"
-		"enabled"				"1"
-		"paintborder"			"1"
-		"border"				"G_MeterBorder"
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"10"
-		"wide"					"120"
-		"tall"					"7"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_RocketPack_Disabled"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"DefaultVerySmall"
-		"fgcolor_override"		"155 155 155 255"
-		"textinsety"			"-1"
-	}
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"4"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"28"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"				"../hud/ammo_blue_bg"
-		"teambg_2"			"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"			"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"					
-	}
-
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -92,36 +27,45 @@
 		"scaleImage"	"1"
 	}
 
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemEffectMeterLabel"
+		"xpos"			"32"
+		"xpos_minmode"	"32"
+		"ypos"			"12"
+		"ypos_minmode"	"27"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"#TF_RocketPack_Disabled"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"G_FontSmall_2"
+		"fgcolor"		"178 0 0 255"
+	}
+	
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"60"
-		"tall"					"6"		
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"G_ItemMeterBg"
-		"paintborder"			"0"
+		"wide"					"90"
 	}
-
+	
 	"ItemEffectMeter2"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter2"
 		"font"					"Default"
-		"xpos"					"60"
+		"xpos"					"90"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"60"
+		"wide"					"90"
 		"tall"					"6"		
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -131,7 +75,68 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"G_ItemMeterBg"
-		"paintborder"			"0"
 	}
 	
+	"Mask25"
+	{	
+		"ControlName"			"EditablePanel"
+		"visible"				"0"
+	}
+	
+	"Mask50"
+	{	
+		"ControlName"			"EditablePanel"
+		"bgcolor_override"		"80 80 80 230"
+	}
+	
+	"Mask50"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"Mask50"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+		"Alpha"					"200"
+	}
+	
+	"Mask75"
+	{	
+		"ControlName"			"EditablePanel"
+		"visible"				"0"
+	}
+	
+	"Mask100"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"Mask100"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	
+	"Border25"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Border25"
+		"visible"				"0"
+	}
+	
+	"Border75"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Mask75"
+		"visible"				"0"
+	}
 }

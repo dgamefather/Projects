@@ -7,9 +7,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos" 			"2" // TLC
-		"xpos_minmode" 	"80" // TLC
-		"ypos" 			"250" // TLC
-		"ypos_minmode" 	"r114" // TLC
+		"xpos_minmode" 	"2" // TLC
+		"ypos" 			"2" // TLC
+		"ypos_minmode" 	"2" // TLC
 		"zpos" 			"9"
 		"wide"			"300"
 		"wide_minmode"	"268"
@@ -79,3 +79,4 @@
 		"maxchars" 		"-1"
 	}
 }
+

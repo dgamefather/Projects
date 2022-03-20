@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"r118" // CIM
+		"ypos"			"r105" // CIM
 		"ypos_minmode"	"r105"
 		"wide"			"140"
 		"tall"			"30"
@@ -94,4 +94,3 @@
 		"border"				"G_MeterBorder"
 	}		
 }
-

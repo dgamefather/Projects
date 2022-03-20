@@ -340,46 +340,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"12" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"480 599" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"2"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"14" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"600 767" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"3"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"15" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"768 1023" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"4"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"17" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"1024 1199" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"5"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"22" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"1200 10000" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
@@ -789,3 +784,6 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 	}
 }
+
+
+

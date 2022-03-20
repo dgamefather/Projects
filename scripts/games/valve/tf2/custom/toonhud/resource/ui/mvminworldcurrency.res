@@ -56,7 +56,7 @@
 		"fgcolor"		"G_Black"
 		"xpos"			"c-90"
 		"ypos"			"r135"
-		"ypos_minmode"	"r105" // 1 CIM
+		"ypos_minmode"	"r135" // 1 CIM
 		"zpos"			"4"
 		"wide"			"180"
 		"tall"			"20"
@@ -74,7 +74,7 @@
 		"fgcolor"		"G_CurrencyBad"
 		"xpos"			"c-90"
 		"ypos"			"r135"
-		"ypos_minmode"	"r105" // 1 CIM
+		"ypos_minmode"	"r135" // 1 CIM
 		"zpos"			"4"
 		"wide"			"180"
 		"tall"			"20"
@@ -93,7 +93,7 @@
 		"fgcolor"		"G_White"
 		"xpos"			"c-90"
 		"ypos"			"r135"
-		"ypos_minmode"	"r105" // 1 CIM
+		"ypos_minmode"	"r135" // 1 CIM
 		"zpos"			"10"
 		"wide"			"180"
 		"tall"			"20"
@@ -111,7 +111,7 @@
 		"fgcolor"		"G_Black"
 		"xpos"			"c-90"
 		"ypos"			"r135"
-		"ypos_minmode"	"r105" // 1 CIM
+		"ypos_minmode"	"r135" // 1 CIM
 		"zpos"			"4"
 		"wide"			"180"
 		"tall"			"20"
@@ -129,7 +129,7 @@
 		"fgcolor"		"G_Shadow"
 		"xpos"			"c-89"
 		"ypos"			"r134"
-		"ypos_minmode"	"r104" // 2 CIM
+		"ypos_minmode"	"r134" // 2 CIM
 		"zpos"			"4"
 		"wide"			"180"
 		"tall"			"20"
@@ -139,4 +139,3 @@
 		"labelText"		"%currency%"
 	}
 }
-

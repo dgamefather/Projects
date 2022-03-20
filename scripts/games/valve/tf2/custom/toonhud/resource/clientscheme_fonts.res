@@ -123,8 +123,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"60" [$WINDOWS] // Size Huge Primary
 				"tall"			"50" [!$WINDOWS] // Size Huge Primary
 				"weight"		"0"
@@ -137,8 +137,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"40" // Size Big Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -150,8 +150,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"25" [$WINDOWS] // Size Medium Primary
 				"tall"			"20" [!$WINDOWS] // Size Medium Primary
 				"weight"		"0"
@@ -164,8 +164,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"15" [$WINDOWS] // Size Small Primary
 				"tall"			"12" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
@@ -178,8 +178,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Size Tiny Primary
 				"tall"			"11" [!$WINDOWS] // Size Tiny Primary
 				"weight"		"0"
@@ -193,8 +193,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [!$WINDOWS] // Secondary font
 				"tall"			"25" // Size Huge Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -206,8 +206,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [!$WINDOWS] // Secondary font
 				"tall"			"19" // Size Big Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -219,8 +219,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [!$WINDOWS] // Secondary font
 				"tall"			"16" // Size Medium Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -232,8 +232,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [!$WINDOWS] // Secondary font
 				"tall"			"12" // Size Small Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -245,8 +245,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS" [$WINDOWS] // Secondary font
-				"name"			"Trebuchet MS" [!$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [$WINDOWS] // Secondary font
+				"name"			"The Wild Breath of Zelda" [!$WINDOWS] // Secondary font
 				"tall"			"10" // Size Tiny Secondary
 				"weight"		"0"
 				"additive"		"0"
@@ -259,8 +259,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma" [$WINDOWS] // Health Font | Primary font
-				"name"			"Tahoma" [!$WINDOWS] // Health Font | Primary font
+				"name"			"FOT-PopJoy Std B" [$WINDOWS] // Health Font | Primary font
+				"name"			"FOT-PopJoy Std B" [!$WINDOWS] // Health Font | Primary font
 				"tall"			"60" // Size Huge Primary - Font Size Health
 				"weight"		"0"
 				"additive"		"0"
@@ -272,8 +272,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma" [$WINDOWS] // Ammo Font | Primary font
-				"name"			"Tahoma" [!$WINDOWS] // Ammo Font | Primary font
+				"name"			"FOT-PopJoy Std B" [$WINDOWS] // Ammo Font | Primary font
+				"name"			"FOT-PopJoy Std B" [!$WINDOWS] // Ammo Font | Primary font
 				"tall"			"60" // Size Huge Primary - Font Size Ammo
 				"weight"		"0"
 				"additive"		"0"
@@ -285,8 +285,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"20" [$WINDOWS] // Font Size Big Main Menu
 				"tall"			"10" [!$WINDOWS] // Font Size Big Main Menu
 				"weight"		"0"
@@ -299,8 +299,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Font Size Main Menu
 				"tall"			"12" [!$WINDOWS] // Font Size Main Menu
 				"weight"		"0"
@@ -313,8 +313,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma" [$WINDOWS] // Damage font | Primary font
-				"name"			"Tahoma" [!$WINDOWS] // Damage font | Primary font
+				"name"			"FOT-PopJoy Std B" [$WINDOWS] // Damage font | Primary font
+				"name"			"FOT-PopJoy Std B" [!$WINDOWS] // Damage font | Primary font
 				"tall"			"20" // Damage size
 				"weight"		"0"
 				"additive"		"0"
@@ -327,8 +327,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma" [$WINDOWS] // Crit damage font | Primary font
-				"name"			"Tahoma" [!$WINDOWS] // Crit damage font | Primary font
+				"name"			"FOT-PopJoy Std B" [$WINDOWS] // Crit damage font | Primary font
+				"name"			"FOT-PopJoy Std B" [!$WINDOWS] // Crit damage font | Primary font
 				"tall"			"22" // Crit damage size
 				"weight"		"0"
 				"additive"		"0"
@@ -341,8 +341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Target ID health font | Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Target ID health font | Primary font
+				"name"			"Triforce" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"Triforce" [!$WINDOWS] // Target ID health font | Primary font
 				"tall"			"14" // Target ID health text size
 				"weight"		"0"
 				"additive"		"0"
@@ -365,8 +365,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"25" // Size Medium Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -379,8 +379,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular" [$WINDOWS] // Primary font
-				"name"			"HyliaSerifBeta-Regular" [!$WINDOWS] // Primary font
+				"name"			"Triforce" [$WINDOWS] // Primary font
+				"name"			"Triforce" [!$WINDOWS] // Primary font
 				"tall"			"15" [$WINDOWS] // Size Small Primary
 				"tall"			"12" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
@@ -835,7 +835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -845,7 +845,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -855,7 +855,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -864,7 +864,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -873,7 +873,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -885,7 +885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -898,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -911,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -923,7 +923,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -934,7 +934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -945,7 +945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -968,7 +968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -979,7 +979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,7 +990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1003,7 +1003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1016,7 +1016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1028,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1039,7 +1039,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1050,7 +1050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1062,7 +1062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1073,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1096,7 +1096,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1107,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1118,7 +1118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1129,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1140,7 +1140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1151,7 +1151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1162,7 +1162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1175,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1250,7 +1250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1263,7 +1263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1323,7 +1323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1333,7 +1333,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1344,7 +1344,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1353,7 +1353,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1362,7 +1362,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1537,7 +1537,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1547,7 +1547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1558,7 +1558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1583,7 +1583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS Professor"
+				"name"			"The Wild Breath of Zelda Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1598,7 +1598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS Professor"
+				"name"			"The Wild Breath of Zelda Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1613,7 +1613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Professor"
+				"name"		"The Wild Breath of Zelda Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1626,7 +1626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS Professor"
+				"name"			"The Wild Breath of Zelda Professor"
 				"tall"			"14" [$WINDOWS]
 				"tall"			"15" [!$WINDOWS]
 				"tall_lodef"	"32"
@@ -1664,7 +1664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1677,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1689,7 +1689,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1701,7 +1701,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1715,7 +1715,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1727,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1739,7 +1739,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1754,7 +1754,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1766,7 +1766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1776,7 +1776,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1786,7 +1786,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1795,7 +1795,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1804,7 +1804,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1817,7 +1817,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1829,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1840,7 +1840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1851,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1863,7 +1863,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1921,46 +1921,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"12" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"480 599" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"2"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"14" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"600 767" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"3"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"15" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"768 1023" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"4"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"17" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"1024 1199" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
 			"5"
 			{
-				"name"			"Verdana" // Chat font
-				"tall"			"22" // Chat fontsize
-				"weight"		"700" // Chat fontweight
-				"yres"			"1200 10000" // Chat yres
+				"name"			"Tahoma" // Chat font
+				"tall"			"Tahoma" // Chat fontsize
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
@@ -1970,9 +1965,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana" // Chat font
+				"name"			"Tahoma" // Chat font
 				"tall"			"8"
-				"weight"		"700" // Chat fontweight
+				"weight"		"400" // Chat fontweight
 				"dropshadow"	"1" // Chat shadow
 				"antialias"		"0" // Chat antialias
 			}
@@ -1982,7 +1977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2082,7 +2077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2095,7 +2090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2107,7 +2102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2160,7 +2155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2170,7 +2165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2180,7 +2175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2208,7 +2203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2217,7 +2212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2256,7 +2251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2267,7 +2262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2278,7 +2273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2366,7 +2361,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2377,7 +2372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2388,7 +2383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2399,7 +2394,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2410,7 +2405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2431,7 +2426,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2442,7 +2437,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2453,7 +2448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2465,7 +2460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2476,7 +2471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HyliaSerifBeta-Regular"
+				"name"			"Triforce"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
@@ -2624,7 +2619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Professor"
+				"name"		"The Wild Breath of Zelda Professor"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2635,7 +2630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2644,7 +2639,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2653,7 +2648,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2666,7 +2661,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2676,7 +2671,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2686,7 +2681,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2700,7 +2695,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2709,7 +2704,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2718,7 +2713,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2731,7 +2726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2743,7 +2738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2754,7 +2749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2862,7 +2857,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2926,7 +2921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2937,7 +2932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2948,7 +2943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"The Wild Breath of Zelda"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2961,7 +2956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2972,7 +2967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2989,7 +2984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3000,7 +2995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3012,7 +3007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3025,7 +3020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Secondary"
+				"name"		"The Wild Breath of Zelda Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3038,7 +3033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3050,7 +3045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3064,7 +3059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HyliaSerifBeta-Regular"
+				"name"		"Triforce"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3150,8 +3145,8 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/Trebuchet MS.ttf"
-			"name" "Trebuchet MS"
+			"font" "resource/The Wild Breath of Zelda.ttf"
+			"name" "The Wild Breath of Zelda"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3163,8 +3158,8 @@ Scheme
 		}
 		"4" 
 		{
-			"font" "resource/Trebuchet MSSecondary.ttf"
-			"name" "Trebuchet MS Secondary"
+			"font" "resource/The Wild Breath of ZeldaSecondary.ttf"
+			"name" "The Wild Breath of Zelda Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3176,8 +3171,8 @@ Scheme
 		}
 		"5" 
 		{
-			"font" "resource/Trebuchet MSProfessor.ttf"
-			"name" "Trebuchet MS Professor"
+			"font" "resource/The Wild Breath of ZeldaProfessor.ttf"
+			"name" "The Wild Breath of Zelda Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -3189,8 +3184,8 @@ Scheme
 		}	
 		"6" 
 		{
-			"font" "resource/Trebuchet MSBuild.ttf"
-			"name" "HyliaSerifBeta-Regular"
+			"font" "resource/The Wild Breath of ZeldaBuild.ttf"
+			"name" "Triforce"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3278,6 +3273,9 @@ Scheme
 		"18" "resource/fonts/Montserrat.ttf"
 	}
 }
+
+
+
 
 
 

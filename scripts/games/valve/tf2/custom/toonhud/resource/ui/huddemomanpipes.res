@@ -72,10 +72,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c100" // 1 CSBC
-		"xpos_minmode"	"c80" // 2 CSBC
+		"xpos"			"c+139" // 1 CSBC
+		"xpos_minmode"	"c+119" // 2 CSBC
 		"ypos"			"r32"
-		"ypos_minmode"	"c+108" // 1 BPM
+		"ypos_minmode"	"c124" // 1 BPM
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"126"
@@ -112,7 +112,7 @@
 			"tall"					"25"
 			"textinsetx"			"1"
 			"textinsety"			"0"
-			"visible"				"0" // 10 CSBC
+			"visible"				"1" // 10 CSBC
 			"enabled"				"1"
 			"labelText"				"G"
 			"textAlignment"			"west"
@@ -131,7 +131,7 @@
 			"tall"					"25"
 			"textinsetx"			"1"
 			"textinsety"			"0"
-			"visible"				"0" // 10 CSBC
+			"visible"				"1" // 10 CSBC
 			"enabled"				"1"
 			"labelText"				"G"
 			"textAlignment"			"west"
@@ -143,12 +143,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"20" // 3 CSBC
-			"ypos"			"-5" // 4 CSBC
+			"xpos"			"45" // 3 CSBC
+			"ypos"			"0" // 4 CSBC
 			"zpos"			"2"
-			"wide"			"184" // 5 CSBC
+			"wide"			"80" // 5 CSBC
 			"tall"			"26"
-			"textinsetx"	"0" // 6 CSBC
+			"textinsetx"	"5" // 6 CSBC
 			"textinsety"	"0"
 			"autoResize"	"1"
 			"pinCorner"		"2"
@@ -156,10 +156,10 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west" // 7 CSBC
+			"textAlignment"	"east" // 7 CSBC
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_Stickys" // 8 CSBC
+			"font"			"G_FontMedium" // 8 CSBC
 			"fgcolor"		"G_StickyColor"
 		}
 		
@@ -167,23 +167,23 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"20" // 3 CSBC
-			"ypos"			"-5" // 4 CSBC
+			"xpos"			"46" // 3 CSBC
+			"ypos"			"1" // 4 CSBC
 			"zpos"			"2"
-			"wide"			"184" // 5 CSBC
+			"wide"			"80" // 5 CSBC
 			"tall"			"26"
-			"textinsetx"	"0" // 6 CSBC
+			"textinsetx"	"5" // 6 CSBC
 			"textinsety"	"0"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"8" // 9 CSBC
-			"textAlignment"	"west" // 7 CSBC
+			"labelText"		"%activepipes%" // 9 CSBC
+			"textAlignment"	"east" // 7 CSBC
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"G_Stickys" // 8 CSBC
+			"font"			"G_FontMedium" // 8 CSBC
 			"fgcolor"		"G_Shadow"
 		}		
 	}
@@ -271,15 +271,6 @@
 		}			
 	}				
 }
-
-
-
-
-
-
-
-
-
 
 
 
