@@ -1,18 +1,20 @@
 const properties = require('./nightwatch.props')
 module.exports = {
-  "src_folders": ["./tests"],
+  "src_folders": ["./scripts"],
   "page_objects_path": ["pageObjects", "pageObjects/focusAndExecute"],
   "selenium": {
     "start_process": true,
     "server_path": properties.resourcePath + properties.seleniumServer,
     "log_path": "",
-    "port": 4444,
+    "port": 5858,
     "cli_args": {
       "webdriver.chrome.driver": properties.resourcePath + properties.chromedriver,
+      "webdriver.edge.driver": properties.resourcePath + properties.msedgedriver,
     }
   },
   "test_settings": {
     "default": {
+      "end_session_on_fail": false,
       "launch_url": "http://localhost",
       "selenium_port": 4444,
       "selenium_host": "localhost",
@@ -31,6 +33,15 @@ module.exports = {
         }
       }
     },
+    "fande_prod": {
+      "launch_url": "https://www.focusandexecute.com",
+    },
+    "fande_testfocus": {
+      "launch_url": "http://testfocus.thatoneplace.net",
+    },
+    "fande_testfocus2": {
+      "launch_url": "http://testfocus2.thatoneplace.net",
+    },
     "firefox": {
       "desiredCapabilities": {
         "browserName": "firefox",
@@ -39,7 +50,13 @@ module.exports = {
     },
     "edge": {
       "desiredCapabilities": {
-        "browserName": "MicrosoftEdge"
+        "browserName": "MicrosoftEdge",
+        "ms:edgeOptions": {
+          "w3c": false,
+          "args": [
+            "window-size=1920,1080"
+          ]
+        }
       }
     }
   }

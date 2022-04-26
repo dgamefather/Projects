@@ -7,7 +7,7 @@
 		{
 			"type": "pwa-node",
 			"request": "launch",
-			"name": "Launch Program",
+			"name": "Nightwatch - F&E",
 			"skipFiles": [
 				"<node_internals>/**"
 			],
@@ -16,13 +16,20 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Launch Program",
+			"name": "Nightwatch",
 			// "program": "${workspaceRoot}/node_modules/nightwatch/bin/runner.js",
-			"program": "C:\\Users\\Brennan\\AppData\\Roaming\\npm\\node_modules\\nightwatch\\bin\\runner.js",
+			"program": "C:\\Users\\dgame\\AppData\\Roaming\\npm\\node_modules\\nightwatch\\bin\\runner.js",
 			"args": [
 			  "--config",
-			  "nightwatch.conf.js"
+			  "nightwatch.conf.js",
+			  "--inspect-port=5858"
 			]
-		}
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Process",
+			"port": 5858
+	   }
 	]
 }

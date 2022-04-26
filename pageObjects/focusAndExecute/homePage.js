@@ -7,6 +7,7 @@ var loginCommands = {
             .click('@loginBtn')
             .waitForElementPresent('@page')
             .api.assert.elementPresent('#content');
+        this.api.assert.urlContains('/OrgChart');
         return this;
     },
     logout: function () {
@@ -16,12 +17,10 @@ var loginCommands = {
             .waitForElementPresent('@logout')
             .click('@logout')
             .waitForElementPresent('@login')
-            .api.assert.urlContains('http://testfocus.thatoneplace.net');	// Change me to whatever url you want!
         return this;
     }
 }
 module.exports = {
-    url: 'http://testfocus.thatoneplace.net/',		// Change me to whatever url you want!
     commands: [loginCommands],
     elements: {
         'login': '#body',

@@ -27,7 +27,7 @@ MOBAs:
 steam://controllerconfig/570/2761310063
 
 FPS:
-steam://controllerconfig/1085660/2774019617
+steam://controllerconfig/1085660/2788087201
 
 ARPG:
 steam://controllerconfig/32770/2582475411
@@ -45,7 +45,7 @@ Big Picture Mode:
 steam://controllerconfig/413090/2723428489
 
 Desktop (use for games that won't work with Steam Overlay):
-steam://controllerconfig/413080/2723423817
+steam://controllerconfig/413080/2787147288
 
 Chord w/ Steam Button:
 steam://controllerconfig/443510/2723433325
@@ -56,13 +56,13 @@ GAMES:
 WHEN DOWNLOADING, MAKE SURE TO REPLACE THE BINDS WITH YOUR OWN THEN SAVE!
 A-C -------------------------------------------------
 Among Us:
-Steam Controller - steam://controllerconfig/945360/2723315629
+Steam Controller - steam://controllerconfig/945360/2787052364
 Apex Legends:
 Steam Controller - steam://controllerconfig/1172470/2723314947
 Black Mesa:
 Steam Controller - steam://controllerconfig/362890/2723302746
 Borderlands 2/Pre-Sequel:
-Steam Controller - steam://controllerconfig/49520/2723316564
+Steam Controller - steam://controllerconfig/49520/2798994453
 Borderlands 3:
 Steam Controller - steam://controllerconfig/397540/2723317284
 
@@ -70,15 +70,15 @@ Steam Controller - steam://controllerconfig/397540/2723317284
 
 D-J -------------------------------------------------
 Destiny 2:
-Steam Controller - steam://controllerconfig/1085660/2774671264
+Steam Controller - steam://controllerconfig/1085660/2796192512
 Dota 2:
 Steam Controller - steam://controllerconfig/570/2781768983
 Dungeon Defenders (works with both OG and Redux Patch):
-Steam Controller - steam://controllerconfig/65800-redux/2754042231
+Steam Controller - steam://controllerconfig/65800-redux/2784652576
 Halo Infinite:
 Steam Controller - steam://controllerconfig/1240440/2723361095
 Halo MCC:
-Steam Controller - steam://controllerconfig/976730/2723370372
+Steam Controller - steam://controllerconfig/976730/2787102076
 Heroes of the Storm:
 Steam Controller - steam://controllerconfig/heroes%20of%20the%20storm/2569923615
 Joint Ops:
@@ -115,6 +115,7 @@ Star Wars Jedi Knight III - Jedi Academy:
 Steam Controller - steam://controllerconfig/6020/2723389037
 Star Wars The Old Republic:
 Steam Controller - steam://controllerconfig/1286830/2768143905
+Team Fortress 2 - steam://controllerconfig/440/2791961955
 Titan Quest:
 Steam Controller - steam://controllerconfig/475150/2723408416
 Tom Clancy's Rainbow Six Siege:

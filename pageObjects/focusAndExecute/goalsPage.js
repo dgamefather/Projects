@@ -1,13 +1,69 @@
 var goalCommands = {
-    goals: function () {        // Done!
+
+    // Navigation
+    goals: function () {
         this
             .waitForElementPresent('@page')
             .click('@myGoals')
             .waitForElementVisible('@table')
-            .api.verify.urlContains("/Objectives/Goals");
+            .api.assert.urlContains("/Objectives/Goals?userId=20323");
         return this;
     },
+
+    // Fresh slate - WIP
+    // cleanUp: function (text) {
+    //     this.goals();
+    //     let element = this.api.findElement('//p[text()=' +text+ ']');
+    //     while (element != null) {
+    //         this.delete(text);
+    //     }
+    //     try {
+    //         element = this.api.findElement('//p[text()=' +text+ ']');
+    //     }
+    //     catch (e) {
+    //         element = null;
+    //     }
+    //     return this;
+    // },
+    delete: function (text) {
+        this.goals();
+        this
+            .click('@deleteBtn')
+			if (this.api.expect.element('.DTE').to.be.present) {
+				this
+					.click('@confirmDelete')
+                    .waitForElementVisible('@table')
+            		.api.verify.not.containsText('#objectives-table', text);
+			}
+		return this;
+		// this
+		// 	.useXpath()
+			// if (this.api.expect.element('//*[@id="Objective_5878"]//*[@class="add-item"]').to.be.present) {
+			// 	this
+            // 		.api.verify.containsText('#objectives-table', 'Test Goal');
+        	// 	this
+            // 		.click('@deleteBtn')
+			// 		.api.assert.elementPresent('.DTE');
+			// 		if (this.api.expect.element('.DTE').to.be.present) {
+			// 			this
+			// 				.click('@confirmDelete')
+            // 				.api.verify.not.containsText('#objectives-table', 'Test Goal');
+			// 			return this;
+			// 		}
+			// 		else {
+			// 			this
+			// 				.api.verify.containsText('#objectives-table', 'Test Goal');
+			// 			return this;
+			// 		}
+			// }
+			// else {
+			// 	return this;
+			// }
+	},
+
+    // Functions
     oldPage: function () {      // IN PROGRESS
+        this.goals();
             // Goal Nav Bar - Company Goals
         this
             .waitForElementPresent('@page')
@@ -72,105 +128,45 @@ var goalCommands = {
         //     .click('@tester')
         //     .pause(3000)
         //     .api.expect.element('@user').to.have.value.which.contains("Tester Litster");
-		// this
-		// 	.api.verify.urlContains("/Objectives/Goals");
+		// this.api.verify.urlContains("/Objectives/Goals");
         return this;
     },
-    editor: function () {       // Done!
-        this
-            /* LOAD GOALS PAGE */
-            .waitForElementPresent('@page')
-            .click('@myGoals')
-            .waitForElementVisible('@table')
-            .api.verify.urlContains("/Objectives/Goals");
+    editor: function () {
+        this.goals()
 
             /* Add Goal */
         this
-			.pause(3000)
+			.waitForElementPresent('@addGoal')
             .click('@addGoal')
-			.pause(3000)
+            .waitForElementPresent('@goalTitleEdit') 
+/*
+    FIX THIS POS TO SKIP IF THIS FAILS BUT NEEDS TO RUN OTHER TESTS 
+    This could possibly be a nightwatchjs config issues, investigate further.
+*/
             .api.keys('Test Goal');
-		this
+        this
             .click('@saveBtn')
             .api.verify.containsText('#objectives-table', 'Test Goal');
+        this.delete('Test Goal');
         return this;
-			// if (this.api.expect.element('#edit-denied').to.be.present) {
-			// 	this
-			// 		.api.keys(this.api.Keys.ESCAPE);
-			// 	this
-			// 		.api.keys(this.api.Keys.NULL);
-			// 	return this;
-			// }
-			// else {
-			// 	this
-			// 		.pause(3000)
-            // 		.api.keys('Test Goal');
-			// 	this
-            // 		.click('@saveBtn')
-            // 		.api.verify.containsText('#objectives-table', 'Test Goal');
-        	// 	return this;
-			// }
     },
-    delete: function () {       // Done!
-        this
-            .api.verify.containsText('#objectives-table', 'Test Goal');
-        this
-            .click('@deleteBtn')
-			.api.assert.elementPresent('.DTE');
-			if (this.api.expect.element('.DTE').to.be.present) {
-				this
-					.click('@confirmDelete')
-            		.api.verify.not.containsText('#objectives-table', 'Test Goal');
-				return this;
-			}
-			else {
-				this
-					.api.verify.containsText('#objectives-table', 'Test Goal');
-				return this;
-			}
-		// this
-		// 	.useXpath()
-			// if (this.api.expect.element('//*[@id="Objective_5878"]//*[@class="add-item"]').to.be.present) {
-			// 	this
-            // 		.api.verify.containsText('#objectives-table', 'Test Goal');
-        	// 	this
-            // 		.click('@deleteBtn')
-			// 		.api.assert.elementPresent('.DTE');
-			// 		if (this.api.expect.element('.DTE').to.be.present) {
-			// 			this
-			// 				.click('@confirmDelete')
-            // 				.api.verify.not.containsText('#objectives-table', 'Test Goal');
-			// 			return this;
-			// 		}
-			// 		else {
-			// 			this
-			// 				.api.verify.containsText('#objectives-table', 'Test Goal');
-			// 			return this;
-			// 		}
-			// }
-			// else {
-			// 	return this;
-			// }
-		},
-		author: function () {
-			this
+	author: function () {      // IN PROGRESS
+			this.goals();
+            this
 			return this;
-		},
-		update: function () {
+	},
+	update: function () {      // IN PROGRESS
+        this.goals();
         this
         return this;
     },
-    dueDate: function () {
+    dueDate: function () {      // IN PROGRESS
+        this.goals();
         this
         return this;
     },
-    search: function (data) {   // Done!
-        this
-            /* LOAD GOALS PAGE */
-            .waitForElementPresent('@page')
-            .click('@myGoals')
-            .waitForElementVisible('@table')
-            .api.verify.urlContains("/Objectives/Goals");
+    search: function (data) {
+        this.goals();
 
             /* SEARCH */
         this
@@ -180,13 +176,8 @@ var goalCommands = {
             .api.verify.containsText('#objectives-table', data)
         return this;
     },
-    tag: function (tags) {      // Done!
-        this
-            /* LOAD GOALS PAGE */
-            .waitForElementPresent('@page')
-            .click('@myGoals')
-            .waitForElementVisible('@table')
-            .api.verify.urlContains("/Objectives/Goals");
+    tag: function (tags) {
+        this.goals();
 
             /* SEARCH TAGS */
         this
@@ -217,6 +208,7 @@ module.exports = {
         'orgChart': 'a[href="/OrgChart"]',
         
         // Goals Page
+        'goalTitleEdit': 'td.inline-edit iframe',
         'user': '.user-select',
         'ceo': '[value="20322"]',
         'tester': '[value="20323"]',
