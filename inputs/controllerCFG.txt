@@ -17,17 +17,19 @@
 🎮+🖱
 ⌨/🖱+🎮
 
-=========================================================================
+✜ Arrow Keys
+
+=========================================================================*
 
 TEMPLATES (STEAM CONTROLLER ONLY!) ------------------
 MMOs:
-steam://controllerconfig/32770/2673401292
+steam://controllerconfig/1286830/2822019881
 
 MOBAs:
 steam://controllerconfig/570/2761310063
 
 FPS:
-steam://controllerconfig/1085660/2788087201
+steam://controllerconfig/1085660/2824874421
 
 ARPG:
 steam://controllerconfig/32770/2582475411
@@ -50,7 +52,7 @@ steam://controllerconfig/413080/2787147288
 Chord w/ Steam Button:
 steam://controllerconfig/443510/2723433325
 
-=========================================================================
+=========================================================================*
 
 GAMES:
 WHEN DOWNLOADING, MAKE SURE TO REPLACE THE BINDS WITH YOUR OWN THEN SAVE!
@@ -58,75 +60,82 @@ A-C -------------------------------------------------
 Among Us:
 Steam Controller - steam://controllerconfig/945360/2787052364
 Apex Legends:
-Steam Controller - steam://controllerconfig/1172470/2723314947
+Steam Controller - steam://controllerconfig/1172470/2828627198
 Black Mesa:
-Steam Controller - steam://controllerconfig/362890/2723302746
+Steam Controller - steam://controllerconfig/362890/2821956954
 Borderlands 2/Pre-Sequel:
-Steam Controller - steam://controllerconfig/49520/2798994453
+Steam Controller - steam://controllerconfig/49520/2825572314
 Borderlands 3:
-Steam Controller - steam://controllerconfig/397540/2723317284
+Steam Controller - steam://controllerconfig/397540/2824947268
+Counter-strike Global Offensive:
+Steam Controller - steam://controllerconfig/730/2829716287
 
-=========================================================================
+=========================================================================*
 
 D-J -------------------------------------------------
 Destiny 2:
-Steam Controller - steam://controllerconfig/1085660/2796192512
+Steam Controller - steam://controllerconfig/1085660/2824875373
 Dota 2:
 Steam Controller - steam://controllerconfig/570/2781768983
 Dungeon Defenders (works with both OG and Redux Patch):
 Steam Controller - steam://controllerconfig/65800-redux/2784652576
 Halo Infinite:
-Steam Controller - steam://controllerconfig/1240440/2723361095
+Steam Controller - steam://controllerconfig/1240440/2824667390
 Halo MCC:
-Steam Controller - steam://controllerconfig/976730/2787102076
+Steam Controller - steam://controllerconfig/976730/2824895143
 Heroes of the Storm:
 Steam Controller - steam://controllerconfig/heroes%20of%20the%20storm/2569923615
 Joint Ops:
-Steam Controller - steam://controllerconfig/32770/2723374033
+Steam Controller - steam://controllerconfig/32770/2824671510
 
 =========================================================================
 
 K-O -------------------------------------------------
 League of Legends (GlosSI):
-Steam Controller - steam://controllerconfig/league%20of%20legends/2781770222
+Steam Controller - steam://controllerconfig/league%20of%20legends/2801547865
 Minecraft:
 Steam Controller - steam://controllerconfig/minecraft/2762998844
 Oddworld Stranger's Wrath:
 Steam Controller - steam://controllerconfig/15750/2723262694
-Overwatch:
-Steam Controller - steam://controllerconfig/overwatch/2723377981
+Overwatch (GlosSI):
+Steam Controller - steam://controllerconfig/overwatch/2828165301
 
-=========================================================================
+=========================================================================*
 
 P-R -------------------------------------------------
 Phasmophobia:
-Steam Controller - steam://controllerconfig/739630/2723378788
+Steam Controller - steam://controllerconfig/739630/2826099357
 
 =========================================================================
 
 S-T -------------------------------------------------
 ShootMania Storm:
-Steam Controller - steam://controllerconfig/229870/2723380485
+Steam Controller - steam://controllerconfig/229870/2824669300
 Xbox Controller - steam://controllerconfig/229870/2781166893
 Switch Pro Controller - steam://controllerconfig/229870/2781825874
+StarCraft/StarCraft Broodwar (Remastered ONLY!):
+Steam Controller - steam://controllerconfig/starcraft/2828653249
+StarCraft II:
+Steam Controller - ???
 Star Wars Jedi Knight II - Jedi Outcast:
-Steam Controller - steam://controllerconfig/6030/2723382830
+Steam Controller - steam://controllerconfig/6030/2824670492
 Star Wars Jedi Knight III - Jedi Academy:
-Steam Controller - steam://controllerconfig/6020/2723389037
+Steam Controller - steam://controllerconfig/6020/2824670280
 Star Wars The Old Republic:
-Steam Controller - steam://controllerconfig/1286830/2768143905
-Team Fortress 2 - steam://controllerconfig/440/2791961955
+Steam Controller - steam://controllerconfig/1286830/2822019328
+Team Fortress 2:
+Steam Controller - steam://controllerconfig/440/2824669868
 Titan Quest:
 Steam Controller - steam://controllerconfig/475150/2723408416
 Tom Clancy's Rainbow Six Siege:
-Steam Controller (🎮+🖱) - steam://controllerconfig/359550/2741594865
+Steam Controller (🎮+🖱) - steam://controllerconfig/359550/2824670708
 Steam Controller (⌨/🖱) - steam://controllerconfig/359550/2741030564
 Tomb Raider (2013):
-Steam Controller - steam://controllerconfig/203160/2723412950
+Steam Controller - steam://controllerconfig/203160/2824670893
 Torchlight II:
 Steam Controller - steam://controllerconfig/200710/2723417067
 Tribes of Midgard:
-Steam Controller - steam://controllerconfig/858820/2723421591
+Steam Controller - steam://controllerconfig/858820/2820899826
 
 =========================================================================
 
@@ -139,12 +148,12 @@ Playthroughs Completed with the Steam Controller:
 THIS WILL TRY TO BE *100%*! IF NOT, WILL BE ALL **MAIN CAMPAIGNS** & **DLC CAMPAIGNS**!
 NOTES ARE MADE IF EITHER "In-progress" OR IF JUST "Main Game" WAS COMPLETED!
 
-=========================================================================
+=========================================================================*
 
 A-C -------------------------------------------------
  - Alien Swarm (In-progress)
  - Batman: Arkham Origins (Main Game)
- - Borderlands 2 (Main Game / In-progress)
+ - Borderlands 2 (Main Game / ALL DLCs / 100% Achievements)
  - Borderlands: The Pre-Sequel (In-progress)
  - Borderlands 3 (Main Game)
 

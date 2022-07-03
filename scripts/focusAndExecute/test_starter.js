@@ -27,14 +27,12 @@ module.exports = {
     },
     after: browser => { browser.end(); },
 
-    /*** Goals ***/
+    // /*** Goals ***/
     'Setup (Goals)': goal.setup,
-
-    Edits: goal.Editor,
+    // Edits: goal.Editor, // NOT WORKING, IN PROGRESS!
     'Old Page': goal["URL Check"],
     // Progress: goal["Progress Check"], // NOT WORKING!
     Search: goal.Filter,
-
     'Teardown (Goals)': goal.teardown,
             
     /*** Scorecard ***/

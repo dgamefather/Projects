@@ -7,6 +7,10 @@ var scorecardCommands = {
             .api.verify.urlContains("/Dashboard/Scorecard");
         return this;
     },
+
+    /**
+     * CHANGE ALL SELECTORS TO CSS!
+     */
     override: function () {   // Score should equal to: 100 w/ NOT APPROVED (should switch to APPROVED)
         this
 			.waitForElementPresent('@page')
@@ -300,6 +304,9 @@ var scorecardCommands = {
 			.api.verify.containsText('//*[@id="21903_sct013"]/following-sibling::div[@class="score"]', '80');
         return this;
     },
+    /**
+     * END OF CHANGE SELECTORS TO CSS!
+     */
 }
 module.exports = {
     commands: [scorecardCommands],

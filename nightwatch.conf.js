@@ -19,6 +19,7 @@ module.exports = {
       "selenium_port": 4444,
       "selenium_host": "localhost",
       "silent": true,
+      // "retryAssertionTimeout": 10000,
       "screenshots": {
         "enabled": false,
         "path": ""
