@@ -19,7 +19,7 @@
 
 ✜ Arrow Keys
 
-=========================================================================*
+=========================================================================
 
 TEMPLATES (STEAM CONTROLLER ONLY!) ------------------
 MMOs:
@@ -50,15 +50,15 @@ Desktop (use for games that won't work with Steam Overlay):
 steam://controllerconfig/413080/2787147288
 
 Chord w/ Steam Button:
-steam://controllerconfig/443510/2723433325
+steam://controllerconfig/443510/2840091916
 
-=========================================================================*
+=========================================================================
 
 GAMES:
 WHEN DOWNLOADING, MAKE SURE TO REPLACE THE BINDS WITH YOUR OWN THEN SAVE!
 A-C -------------------------------------------------
 Among Us:
-Steam Controller - steam://controllerconfig/945360/2787052364
+Steam Controller - steam://controllerconfig/945360/2835292380
 Apex Legends:
 Steam Controller - steam://controllerconfig/1172470/2828627198
 Black Mesa:
@@ -68,13 +68,13 @@ Steam Controller - steam://controllerconfig/49520/2825572314
 Borderlands 3:
 Steam Controller - steam://controllerconfig/397540/2824947268
 Counter-strike Global Offensive:
-Steam Controller - steam://controllerconfig/730/2829716287
+Steam Controller - steam://controllerconfig/730/2830216707
 
 =========================================================================*
 
 D-J -------------------------------------------------
 Destiny 2:
-Steam Controller - steam://controllerconfig/1085660/2824875373
+Steam Controller - steam://controllerconfig/1085660/2850161908
 Dota 2:
 Steam Controller - steam://controllerconfig/570/2781768983
 Dungeon Defenders (works with both OG and Redux Patch):
@@ -82,7 +82,7 @@ Steam Controller - steam://controllerconfig/65800-redux/2784652576
 Halo Infinite:
 Steam Controller - steam://controllerconfig/1240440/2824667390
 Halo MCC:
-Steam Controller - steam://controllerconfig/976730/2824895143
+Steam Controller - steam://controllerconfig/976730/2833397634
 Heroes of the Storm:
 Steam Controller - steam://controllerconfig/heroes%20of%20the%20storm/2569923615
 Joint Ops:
@@ -93,6 +93,8 @@ Steam Controller - steam://controllerconfig/32770/2824671510
 K-O -------------------------------------------------
 League of Legends (GlosSI):
 Steam Controller - steam://controllerconfig/league%20of%20legends/2801547865
+Lego Star Wars - The Skywalker Saga:
+Steam Controller - steam://controllerconfig/920210/2833666054
 Minecraft:
 Steam Controller - steam://controllerconfig/minecraft/2762998844
 Oddworld Stranger's Wrath:
@@ -100,7 +102,7 @@ Steam Controller - steam://controllerconfig/15750/2723262694
 Overwatch (GlosSI):
 Steam Controller - steam://controllerconfig/overwatch/2828165301
 
-=========================================================================*
+=========================================================================
 
 P-R -------------------------------------------------
 Phasmophobia:
@@ -115,8 +117,6 @@ Xbox Controller - steam://controllerconfig/229870/2781166893
 Switch Pro Controller - steam://controllerconfig/229870/2781825874
 StarCraft/StarCraft Broodwar (Remastered ONLY!):
 Steam Controller - steam://controllerconfig/starcraft/2828653249
-StarCraft II:
-Steam Controller - ???
 Star Wars Jedi Knight II - Jedi Outcast:
 Steam Controller - steam://controllerconfig/6030/2824670492
 Star Wars Jedi Knight III - Jedi Academy:
@@ -148,7 +148,7 @@ Playthroughs Completed with the Steam Controller:
 THIS WILL TRY TO BE *100%*! IF NOT, WILL BE ALL **MAIN CAMPAIGNS** & **DLC CAMPAIGNS**!
 NOTES ARE MADE IF EITHER "In-progress" OR IF JUST "Main Game" WAS COMPLETED!
 
-=========================================================================*
+=========================================================================
 
 A-C -------------------------------------------------
  - Alien Swarm (In-progress)
